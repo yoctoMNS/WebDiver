@@ -1,0 +1,542 @@
+11月 23, 2022 6:35:10 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T18:35:10.938578134)	ゲームが開始されました====================
+11月 23, 2022 6:35:13 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T18:35:13.347211457)	アセットの読み込みが完了しました。 File : tileset.png
+11月 23, 2022 6:35:13 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T18:35:13.352236806)	ワールドの作成が完了しました。
+11月 23, 2022 6:35:14 午後 jp.xdomain.html.yoctomns.util.LoggingUtil severePrint
+重大: (2022-11-23T18:35:14.052446432)	致命的なエラーが起こりました。ゲームを終了します。
+java.lang.ArrayIndexOutOfBoundsException: Index 8 out of bounds for length 8
+	at jp.xdomain.html.yoctomns.entity.creature.Creature.canWalk(Creature.java:55)
+	at jp.xdomain.html.yoctomns.entity.creature.Creature.update(Creature.java:44)
+	at jp.xdomain.html.yoctomns.entity.creature.Player.update(Player.java:57)
+	at jp.xdomain.html.yoctomns.world.World.update(World.java:58)
+	at jp.xdomain.html.yoctomns.state.PlayState.update(PlayState.java:30)
+	at jp.xdomain.html.yoctomns.game.Game.update(Game.java:44)
+	at jp.xdomain.html.yoctomns.game.GameLoop.update(GameLoop.java:46)
+	at jp.xdomain.html.yoctomns.game.GameLoop.run(GameLoop.java:34)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+	at jp.xdomain.html.yoctomns.GameLauncher.<init>(GameLauncher.java:11)
+	at jp.xdomain.html.yoctomns.GameLauncher.main(GameLauncher.java:15)
+
+11月 23, 2022 6:35:16 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T18:35:16.573042639)	ゲームが終了しました======================
+11月 23, 2022 6:43:43 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T18:43:43.922403218)	ゲームが開始されました====================
+11月 23, 2022 6:43:48 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T18:43:48.036462175)	アセットの読み込みが完了しました。 File : tileset.png
+11月 23, 2022 6:43:48 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T18:43:48.041405857)	ワールドの作成が完了しました。
+11月 23, 2022 6:43:48 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T18:43:48.071537081)	アセットの読み込みが完了しました。 File : tileset.png
+11月 23, 2022 6:43:48 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T18:43:48.074074896)	ワールドの作成が完了しました。
+11月 23, 2022 6:43:53 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T18:43:53.377175788)	ゲームが終了しました======================
+11月 23, 2022 6:44:35 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T18:44:35.784267497)	ゲームが開始されました====================
+11月 23, 2022 6:44:44 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T18:44:44.670224286)	アセットの読み込みが完了しました。 File : tileset.png
+11月 23, 2022 6:44:44 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T18:44:44.675325204)	ワールドの作成が完了しました。
+11月 23, 2022 6:44:47 午後 jp.xdomain.html.yoctomns.util.LoggingUtil severePrint
+重大: (2022-11-23T18:44:47.390050619)	致命的なエラーが起こりました。ゲームを終了します。
+java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 8
+	at jp.xdomain.html.yoctomns.entity.creature.Creature.canWalk(Creature.java:60)
+	at jp.xdomain.html.yoctomns.entity.creature.Creature.update(Creature.java:44)
+	at jp.xdomain.html.yoctomns.entity.creature.Player.update(Player.java:57)
+	at jp.xdomain.html.yoctomns.world.World.update(World.java:58)
+	at jp.xdomain.html.yoctomns.state.PlayState.update(PlayState.java:30)
+	at jp.xdomain.html.yoctomns.game.Game.update(Game.java:44)
+	at jp.xdomain.html.yoctomns.game.GameLoop.update(GameLoop.java:46)
+	at jp.xdomain.html.yoctomns.game.GameLoop.run(GameLoop.java:34)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+	at jp.xdomain.html.yoctomns.GameLauncher.<init>(GameLauncher.java:11)
+	at jp.xdomain.html.yoctomns.GameLauncher.main(GameLauncher.java:15)
+
+11月 23, 2022 6:44:52 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T18:44:52.202894937)	ゲームが終了しました======================
+11月 23, 2022 6:46:25 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T18:46:25.417511184)	ゲームが開始されました====================
+11月 23, 2022 6:46:27 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T18:46:27.761768187)	アセットの読み込みが完了しました。 File : tileset.png
+11月 23, 2022 6:46:27 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T18:46:27.766845719)	ワールドの作成が完了しました。
+11月 23, 2022 6:46:29 午後 jp.xdomain.html.yoctomns.util.LoggingUtil severePrint
+重大: (2022-11-23T18:46:29.333661934)	致命的なエラーが起こりました。ゲームを終了します。
+java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 8
+	at jp.xdomain.html.yoctomns.entity.creature.Creature.canWalk(Creature.java:60)
+	at jp.xdomain.html.yoctomns.entity.creature.Creature.update(Creature.java:44)
+	at jp.xdomain.html.yoctomns.entity.creature.Player.update(Player.java:57)
+	at jp.xdomain.html.yoctomns.world.World.update(World.java:58)
+	at jp.xdomain.html.yoctomns.state.PlayState.update(PlayState.java:30)
+	at jp.xdomain.html.yoctomns.game.Game.update(Game.java:44)
+	at jp.xdomain.html.yoctomns.game.GameLoop.update(GameLoop.java:46)
+	at jp.xdomain.html.yoctomns.game.GameLoop.run(GameLoop.java:34)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+	at jp.xdomain.html.yoctomns.GameLauncher.<init>(GameLauncher.java:11)
+	at jp.xdomain.html.yoctomns.GameLauncher.main(GameLauncher.java:15)
+
+11月 23, 2022 6:46:32 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T18:46:32.193926478)	ゲームが終了しました======================
+11月 23, 2022 6:47:12 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T18:47:12.281891067)	ゲームが開始されました====================
+11月 23, 2022 6:47:14 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T18:47:14.700653450)	アセットの読み込みが完了しました。 File : tileset.png
+11月 23, 2022 6:47:14 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T18:47:14.705455583)	ワールドの作成が完了しました。
+11月 23, 2022 6:47:16 午後 jp.xdomain.html.yoctomns.util.LoggingUtil severePrint
+重大: (2022-11-23T18:47:16.607082600)	致命的なエラーが起こりました。ゲームを終了します。
+java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 8
+	at jp.xdomain.html.yoctomns.entity.creature.Creature.canWalk(Creature.java:60)
+	at jp.xdomain.html.yoctomns.entity.creature.Creature.update(Creature.java:44)
+	at jp.xdomain.html.yoctomns.entity.creature.Player.update(Player.java:57)
+	at jp.xdomain.html.yoctomns.world.World.update(World.java:58)
+	at jp.xdomain.html.yoctomns.state.PlayState.update(PlayState.java:30)
+	at jp.xdomain.html.yoctomns.game.Game.update(Game.java:44)
+	at jp.xdomain.html.yoctomns.game.GameLoop.update(GameLoop.java:46)
+	at jp.xdomain.html.yoctomns.game.GameLoop.run(GameLoop.java:34)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+	at jp.xdomain.html.yoctomns.GameLauncher.<init>(GameLauncher.java:11)
+	at jp.xdomain.html.yoctomns.GameLauncher.main(GameLauncher.java:15)
+
+11月 23, 2022 6:47:19 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T18:47:19.822493314)	ゲームが終了しました======================
+11月 23, 2022 6:50:02 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T18:50:02.443601565)	ゲームが開始されました====================
+11月 23, 2022 6:50:04 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T18:50:04.742491976)	アセットの読み込みが完了しました。 File : tileset.png
+11月 23, 2022 6:50:04 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T18:50:04.747418873)	ワールドの作成が完了しました。
+11月 23, 2022 6:50:22 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T18:50:22.261669847)	ゲームが終了しました======================
+11月 23, 2022 7:03:11 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T19:03:11.409475211)	ゲームが開始されました====================
+11月 23, 2022 7:03:13 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T19:03:13.791285412)	アセットの読み込みが完了しました。 File : tileset.png
+11月 23, 2022 7:03:13 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T19:03:13.796358954)	ワールドの作成が完了しました。
+11月 23, 2022 7:04:51 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T19:04:51.132921967)	ゲームが終了しました======================
+11月 23, 2022 7:09:29 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T19:09:29.537513501)	ゲームが開始されました====================
+11月 23, 2022 7:09:32 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T19:09:32.016542733)	アセットの読み込みが完了しました。 File : tileset.png
+11月 23, 2022 7:09:32 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T19:09:32.021628347)	ワールドの作成が完了しました。
+11月 23, 2022 7:10:01 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T19:10:01.551423506)	ゲームが終了しました======================
+11月 23, 2022 7:10:30 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T19:10:30.358952550)	ゲームが開始されました====================
+11月 23, 2022 7:10:32 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T19:10:32.592065495)	アセットの読み込みが完了しました。 File : tileset.png
+11月 23, 2022 7:10:32 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T19:10:32.597015493)	ワールドの作成が完了しました。
+11月 23, 2022 7:10:35 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T19:10:35.791553516)	ゲームが終了しました======================
+11月 23, 2022 7:12:04 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T19:12:04.260355260)	ゲームが開始されました====================
+11月 23, 2022 7:12:06 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T19:12:06.427763345)	アセットの読み込みが完了しました。 File : tileset.png
+11月 23, 2022 7:12:06 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T19:12:06.433040279)	ワールドの作成が完了しました。
+11月 23, 2022 7:12:27 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T19:12:27.770914473)	ゲームが終了しました======================
+11月 23, 2022 7:13:08 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T19:13:08.051936488)	ゲームが開始されました====================
+11月 23, 2022 7:13:11 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T19:13:11.548433348)	アセットの読み込みが完了しました。 File : tileset.png
+11月 23, 2022 7:13:11 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T19:13:11.553880373)	ワールドの作成が完了しました。
+11月 23, 2022 7:13:15 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T19:13:15.250327186)	ゲームが終了しました======================
+11月 23, 2022 7:13:40 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T19:13:40.439798593)	ゲームが開始されました====================
+11月 23, 2022 7:13:43 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T19:13:43.469076322)	アセットの読み込みが完了しました。 File : tileset.png
+11月 23, 2022 7:13:43 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T19:13:43.474291010)	ワールドの作成が完了しました。
+11月 23, 2022 7:15:22 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T19:15:22.449969857)	ゲームが終了しました======================
+11月 23, 2022 7:52:52 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T19:52:52.106353075)	ゲームが開始されました====================
+11月 23, 2022 7:52:54 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T19:52:54.610617510)	アセットの読み込みが完了しました。 File : tileset.png
+11月 23, 2022 7:52:54 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T19:52:54.616028693)	ワールドの作成が完了しました。
+11月 23, 2022 7:52:54 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T19:52:54.643846524)	アセットの読み込みが完了しました。 File : tileset.png
+11月 23, 2022 7:52:54 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T19:52:54.646475126)	ワールドの作成が完了しました。
+11月 23, 2022 7:53:28 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T19:53:28.637813122)	ゲームが終了しました======================
+11月 23, 2022 8:58:55 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T20:58:55.870355333)	ゲームが開始されました====================
+11月 23, 2022 8:58:58 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T20:58:58.703116914)	アセットの読み込みが完了しました。 File : tileset.png
+11月 23, 2022 8:58:58 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T20:58:58.708197462)	ワールドの作成が完了しました。
+11月 23, 2022 8:58:58 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T20:58:58.736360042)	アセットの読み込みが完了しました。 File : tileset.png
+11月 23, 2022 8:58:58 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T20:58:58.739097438)	ワールドの作成が完了しました。
+11月 23, 2022 8:59:13 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T20:59:13.894427140)	ゲームが終了しました======================
+11月 23, 2022 9:01:36 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T21:01:36.429415366)	ゲームが開始されました====================
+11月 23, 2022 9:01:40 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T21:01:40.252016115)	アセットの読み込みが完了しました。 File : tileset.png
+11月 23, 2022 9:01:40 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T21:01:40.257239933)	ワールドの作成が完了しました。
+11月 23, 2022 9:01:42 午後 jp.xdomain.html.yoctomns.util.LoggingUtil severePrint
+重大: (2022-11-23T21:01:42.356101820)	致命的なエラーが起こりました。ゲームを終了します。
+java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 8
+	at jp.xdomain.html.yoctomns.entity.creature.Creature.canWalk(Creature.java:62)
+	at jp.xdomain.html.yoctomns.entity.creature.Creature.update(Creature.java:44)
+	at jp.xdomain.html.yoctomns.entity.creature.Player.update(Player.java:57)
+	at jp.xdomain.html.yoctomns.world.World.update(World.java:59)
+	at jp.xdomain.html.yoctomns.state.PlayState.update(PlayState.java:30)
+	at jp.xdomain.html.yoctomns.game.Game.update(Game.java:44)
+	at jp.xdomain.html.yoctomns.game.GameLoop.update(GameLoop.java:46)
+	at jp.xdomain.html.yoctomns.game.GameLoop.run(GameLoop.java:34)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+	at jp.xdomain.html.yoctomns.GameLauncher.<init>(GameLauncher.java:11)
+	at jp.xdomain.html.yoctomns.GameLauncher.main(GameLauncher.java:15)
+
+11月 23, 2022 9:01:46 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T21:01:46.266504751)	ゲームが終了しました======================
+11月 23, 2022 9:02:36 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T21:02:36.705327159)	ゲームが開始されました====================
+11月 23, 2022 9:02:39 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T21:02:39.198832326)	アセットの読み込みが完了しました。 File : tileset.png
+11月 23, 2022 9:02:39 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T21:02:39.203771908)	ワールドの作成が完了しました。
+11月 23, 2022 9:02:40 午後 jp.xdomain.html.yoctomns.util.LoggingUtil severePrint
+重大: (2022-11-23T21:02:40.995180486)	致命的なエラーが起こりました。ゲームを終了します。
+java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 8
+	at jp.xdomain.html.yoctomns.entity.creature.Creature.canWalk(Creature.java:62)
+	at jp.xdomain.html.yoctomns.entity.creature.Creature.update(Creature.java:44)
+	at jp.xdomain.html.yoctomns.entity.creature.Player.update(Player.java:57)
+	at jp.xdomain.html.yoctomns.world.World.update(World.java:59)
+	at jp.xdomain.html.yoctomns.state.PlayState.update(PlayState.java:30)
+	at jp.xdomain.html.yoctomns.game.Game.update(Game.java:44)
+	at jp.xdomain.html.yoctomns.game.GameLoop.update(GameLoop.java:46)
+	at jp.xdomain.html.yoctomns.game.GameLoop.run(GameLoop.java:34)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+	at jp.xdomain.html.yoctomns.GameLauncher.<init>(GameLauncher.java:11)
+	at jp.xdomain.html.yoctomns.GameLauncher.main(GameLauncher.java:15)
+
+11月 23, 2022 9:02:48 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T21:02:48.419513043)	ゲームが終了しました======================
+11月 23, 2022 9:03:17 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T21:03:17.839772434)	ゲームが開始されました====================
+11月 23, 2022 9:03:20 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T21:03:20.242155566)	アセットの読み込みが完了しました。 File : tileset.png
+11月 23, 2022 9:03:20 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T21:03:20.247044885)	ワールドの作成が完了しました。
+11月 23, 2022 9:03:22 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T21:03:22.472303641)	ゲームが終了しました======================
+11月 23, 2022 9:03:49 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T21:03:49.498502756)	ゲームが開始されました====================
+11月 23, 2022 9:03:52 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T21:03:52.619488253)	アセットの読み込みが完了しました。 File : tileset.png
+11月 23, 2022 9:03:52 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T21:03:52.624977782)	ワールドの作成が完了しました。
+11月 23, 2022 9:04:08 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T21:04:08.271676531)	ゲームが終了しました======================
+11月 23, 2022 9:05:13 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T21:05:13.019385158)	ゲームが開始されました====================
+11月 23, 2022 9:05:15 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T21:05:15.397832171)	アセットの読み込みが完了しました。 File : tileset.png
+11月 23, 2022 9:05:15 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T21:05:15.403037144)	ワールドの作成が完了しました。
+11月 23, 2022 9:05:21 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-23T21:05:21.018228118)	ゲームが終了しました======================
+11月 24, 2022 9:52:23 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-24T21:52:23.395869420)	ゲームが開始されました====================
+11月 24, 2022 9:52:27 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-24T21:52:27.653325544)	アセットの読み込みが完了しました。 File : tileset.png
+11月 24, 2022 9:52:27 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-24T21:52:27.658178231)	ワールドの作成が完了しました。
+11月 24, 2022 9:52:44 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-24T21:52:44.074671438)	ゲームが終了しました======================
+11月 29, 2022 4:42:49 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T16:42:49.816580735)	ゲームが開始されました====================
+11月 29, 2022 4:42:52 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T16:42:52.917593111)	アセットの読み込みが完了しました。 File : tileset.png
+11月 29, 2022 4:42:52 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T16:42:52.923818546)	ワールドの作成が完了しました。
+11月 29, 2022 4:43:00 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T16:43:00.729388471)	ゲームが終了しました======================
+11月 29, 2022 4:46:13 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T16:46:13.818431114)	ゲームが開始されました====================
+11月 29, 2022 4:46:16 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T16:46:16.518264752)	アセットの読み込みが完了しました。 File : tileset.png
+11月 29, 2022 4:46:16 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T16:46:16.523319160)	ワールドの作成が完了しました。
+11月 29, 2022 4:46:35 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T16:46:35.609206569)	ゲームが終了しました======================
+11月 29, 2022 4:49:40 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T16:49:40.696722358)	ゲームが開始されました====================
+11月 29, 2022 4:49:42 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T16:49:42.873680193)	アセットの読み込みが完了しました。 File : tileset.png
+11月 29, 2022 4:49:42 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T16:49:42.878841813)	ワールドの作成が完了しました。
+11月 29, 2022 4:49:59 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T16:49:59.687186885)	ゲームが終了しました======================
+11月 29, 2022 6:32:49 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T18:32:49.773204661)	ゲームが開始されました====================
+11月 29, 2022 6:32:53 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T18:32:53.020310341)	アセットの読み込みが完了しました。 File : tileset.png
+11月 29, 2022 6:32:53 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T18:32:53.025388382)	ワールドの作成が完了しました。
+11月 29, 2022 6:33:08 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T18:33:08.403526800)	ゲームが終了しました======================
+11月 29, 2022 6:34:10 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T18:34:10.097216143)	ゲームが開始されました====================
+11月 29, 2022 6:34:12 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T18:34:12.526901663)	アセットの読み込みが完了しました。 File : tileset.png
+11月 29, 2022 6:34:12 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T18:34:12.531723582)	ワールドの作成が完了しました。
+11月 29, 2022 6:34:18 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T18:34:18.099685153)	ゲームが終了しました======================
+11月 29, 2022 6:35:12 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T18:35:12.328020355)	ゲームが開始されました====================
+11月 29, 2022 6:35:14 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T18:35:14.759065387)	アセットの読み込みが完了しました。 File : tileset.png
+11月 29, 2022 6:35:14 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T18:35:14.764109478)	ワールドの作成が完了しました。
+11月 29, 2022 6:35:25 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T18:35:25.198009425)	ゲームが終了しました======================
+11月 29, 2022 6:35:40 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T18:35:40.460664271)	ゲームが開始されました====================
+11月 29, 2022 6:35:42 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T18:35:42.997974295)	アセットの読み込みが完了しました。 File : tileset.png
+11月 29, 2022 6:35:43 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T18:35:43.003031162)	ワールドの作成が完了しました。
+11月 29, 2022 6:36:22 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T18:36:22.568566665)	ゲームが終了しました======================
+11月 29, 2022 6:38:02 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T18:38:02.050836208)	ゲームが開始されました====================
+11月 29, 2022 6:38:04 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T18:38:04.587946772)	アセットの読み込みが完了しました。 File : tileset.png
+11月 29, 2022 6:38:04 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T18:38:04.592831462)	ワールドの作成が完了しました。
+11月 29, 2022 6:38:33 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T18:38:33.597133712)	ゲームが終了しました======================
+11月 29, 2022 6:40:01 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T18:40:01.021894464)	ゲームが開始されました====================
+11月 29, 2022 6:40:03 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T18:40:03.717749508)	アセットの読み込みが完了しました。 File : tileset.png
+11月 29, 2022 6:40:03 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T18:40:03.722673957)	ワールドの作成が完了しました。
+11月 29, 2022 6:41:06 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T18:41:06.087549245)	ゲームが終了しました======================
+11月 29, 2022 6:49:54 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T18:49:54.803811762)	ゲームが開始されました====================
+11月 29, 2022 6:49:58 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T18:49:58.169069799)	アセットの読み込みが完了しました。 File : tileset.png
+11月 29, 2022 6:49:58 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T18:49:58.174099949)	ワールドの作成が完了しました。
+11月 29, 2022 6:50:44 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T18:50:44.391444809)	ゲームが終了しました======================
+11月 29, 2022 6:51:28 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T18:51:28.389276990)	ゲームが開始されました====================
+11月 29, 2022 6:51:31 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T18:51:31.740778339)	アセットの読み込みが完了しました。 File : tileset.png
+11月 29, 2022 6:51:31 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T18:51:31.745572867)	ワールドの作成が完了しました。
+11月 29, 2022 6:51:33 午後 jp.xdomain.html.yoctomns.util.LoggingUtil severePrint
+重大: (2022-11-29T18:51:33.330770005)	致命的なエラーが起こりました。ゲームを終了します。
+java.lang.ArrayIndexOutOfBoundsException: Index 8 out of bounds for length 8
+	at jp.xdomain.html.yoctomns.entity.creature.Creature.canWalk(Creature.java:65)
+	at jp.xdomain.html.yoctomns.entity.creature.Creature.update(Creature.java:44)
+	at jp.xdomain.html.yoctomns.entity.creature.Player.update(Player.java:57)
+	at jp.xdomain.html.yoctomns.world.World.update(World.java:59)
+	at jp.xdomain.html.yoctomns.state.PlayState.update(PlayState.java:30)
+	at jp.xdomain.html.yoctomns.game.Game.update(Game.java:44)
+	at jp.xdomain.html.yoctomns.game.GameLoop.update(GameLoop.java:46)
+	at jp.xdomain.html.yoctomns.game.GameLoop.run(GameLoop.java:34)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+	at jp.xdomain.html.yoctomns.GameLauncher.<init>(GameLauncher.java:11)
+	at jp.xdomain.html.yoctomns.GameLauncher.main(GameLauncher.java:15)
+
+11月 29, 2022 6:51:42 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T18:51:42.844744169)	ゲームが終了しました======================
+11月 29, 2022 6:52:07 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T18:52:07.411441487)	ゲームが開始されました====================
+11月 29, 2022 6:52:09 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T18:52:09.962034023)	アセットの読み込みが完了しました。 File : tileset.png
+11月 29, 2022 6:52:09 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T18:52:09.967285793)	ワールドの作成が完了しました。
+11月 29, 2022 6:52:16 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T18:52:16.031076486)	ゲームが終了しました======================
+11月 29, 2022 6:53:12 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T18:53:12.317424868)	ゲームが開始されました====================
+11月 29, 2022 6:53:14 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T18:53:14.461544653)	アセットの読み込みが完了しました。 File : tileset.png
+11月 29, 2022 6:53:14 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T18:53:14.466604441)	ワールドの作成が完了しました。
+11月 29, 2022 6:53:24 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T18:53:24.037838862)	ゲームが終了しました======================
+11月 29, 2022 6:53:58 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T18:53:58.751520978)	ゲームが開始されました====================
+11月 29, 2022 6:54:00 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T18:54:00.751447119)	アセットの読み込みが完了しました。 File : tileset.png
+11月 29, 2022 6:54:00 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T18:54:00.756346877)	ワールドの作成が完了しました。
+11月 29, 2022 6:54:15 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T18:54:15.685690329)	ゲームが終了しました======================
+11月 29, 2022 6:55:17 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T18:55:17.023010257)	ゲームが開始されました====================
+11月 29, 2022 6:55:19 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T18:55:19.186472146)	アセットの読み込みが完了しました。 File : tileset.png
+11月 29, 2022 6:55:19 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T18:55:19.191360343)	ワールドの作成が完了しました。
+11月 29, 2022 6:55:19 午後 jp.xdomain.html.yoctomns.util.LoggingUtil severePrint
+重大: (2022-11-29T18:55:19.213503335)	致命的なエラーが起こりました。ゲームを終了します。
+java.lang.ArrayIndexOutOfBoundsException: Index 68 out of bounds for length 8
+	at jp.xdomain.html.yoctomns.entity.creature.Creature.canWalk(Creature.java:62)
+	at jp.xdomain.html.yoctomns.entity.creature.Creature.update(Creature.java:44)
+	at jp.xdomain.html.yoctomns.entity.creature.Player.update(Player.java:57)
+	at jp.xdomain.html.yoctomns.world.World.update(World.java:59)
+	at jp.xdomain.html.yoctomns.state.PlayState.update(PlayState.java:30)
+	at jp.xdomain.html.yoctomns.game.Game.update(Game.java:44)
+	at jp.xdomain.html.yoctomns.game.GameLoop.update(GameLoop.java:46)
+	at jp.xdomain.html.yoctomns.game.GameLoop.run(GameLoop.java:34)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+	at jp.xdomain.html.yoctomns.GameLauncher.<init>(GameLauncher.java:11)
+	at jp.xdomain.html.yoctomns.GameLauncher.main(GameLauncher.java:15)
+
+11月 29, 2022 6:55:20 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T18:55:20.733936025)	ゲームが終了しました======================
+11月 29, 2022 6:56:48 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T18:56:48.419856078)	ゲームが開始されました====================
+11月 29, 2022 6:56:50 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T18:56:50.869887660)	アセットの読み込みが完了しました。 File : tileset.png
+11月 29, 2022 6:56:50 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T18:56:50.874818136)	ワールドの作成が完了しました。
+11月 29, 2022 6:57:06 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T18:57:06.309721945)	ゲームが終了しました======================
+11月 29, 2022 6:57:50 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T18:57:50.583401173)	ゲームが開始されました====================
+11月 29, 2022 6:57:53 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T18:57:53.172594743)	アセットの読み込みが完了しました。 File : tileset.png
+11月 29, 2022 6:57:53 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T18:57:53.177544876)	ワールドの作成が完了しました。
+11月 29, 2022 6:57:59 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T18:57:59.617865791)	ゲームが終了しました======================
+11月 29, 2022 6:58:58 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T18:58:58.811294481)	ゲームが開始されました====================
+11月 29, 2022 6:59:00 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T18:59:00.939451983)	アセットの読み込みが完了しました。 File : tileset.png
+11月 29, 2022 6:59:00 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T18:59:00.944345290)	ワールドの作成が完了しました。
+11月 29, 2022 6:59:04 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T18:59:04.669351781)	ゲームが終了しました======================
+11月 29, 2022 6:59:20 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T18:59:20.592489983)	ゲームが開始されました====================
+11月 29, 2022 6:59:22 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T18:59:22.442953602)	アセットの読み込みが完了しました。 File : tileset.png
+11月 29, 2022 6:59:22 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T18:59:22.447751810)	ワールドの作成が完了しました。
+11月 29, 2022 6:59:49 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T18:59:49.966171272)	ゲームが終了しました======================
+11月 29, 2022 7:00:44 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T19:00:44.325419624)	ゲームが開始されました====================
+11月 29, 2022 7:00:46 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T19:00:46.233997562)	アセットの読み込みが完了しました。 File : tileset.png
+11月 29, 2022 7:00:46 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T19:00:46.238932017)	ワールドの作成が完了しました。
+11月 29, 2022 7:00:51 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T19:00:51.672590752)	ゲームが終了しました======================
+11月 29, 2022 7:01:22 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T19:01:22.871787290)	ゲームが開始されました====================
+11月 29, 2022 7:01:24 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T19:01:24.885110642)	アセットの読み込みが完了しました。 File : tileset.png
+11月 29, 2022 7:01:24 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T19:01:24.890092346)	ワールドの作成が完了しました。
+11月 29, 2022 7:01:24 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T19:01:24.921626314)	アセットの読み込みが完了しました。 File : tileset.png
+11月 29, 2022 7:01:24 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T19:01:24.924469419)	ワールドの作成が完了しました。
+11月 29, 2022 7:01:29 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T19:01:29.899444062)	ゲームが終了しました======================
+11月 29, 2022 7:02:18 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T19:02:18.311414575)	ゲームが開始されました====================
+11月 29, 2022 7:02:20 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T19:02:20.381905873)	アセットの読み込みが完了しました。 File : tileset.png
+11月 29, 2022 7:02:20 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T19:02:20.387071934)	ワールドの作成が完了しました。
+11月 29, 2022 7:02:26 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T19:02:26.330072581)	ゲームが終了しました======================
+11月 29, 2022 7:02:58 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T19:02:58.470939447)	ゲームが開始されました====================
+11月 29, 2022 7:03:00 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T19:03:00.590146139)	アセットの読み込みが完了しました。 File : tileset.png
+11月 29, 2022 7:03:00 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T19:03:00.595238612)	ワールドの作成が完了しました。
+11月 29, 2022 7:03:08 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T19:03:08.969706404)	ゲームが終了しました======================
+11月 29, 2022 7:03:34 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T19:03:34.830459713)	ゲームが開始されました====================
+11月 29, 2022 7:03:36 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T19:03:36.691750919)	アセットの読み込みが完了しました。 File : tileset.png
+11月 29, 2022 7:03:36 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T19:03:36.696611155)	ワールドの作成が完了しました。
+11月 29, 2022 7:03:57 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T19:03:57.568013112)	ゲームが終了しました======================
+11月 29, 2022 7:04:27 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T19:04:27.911684344)	ゲームが開始されました====================
+11月 29, 2022 7:04:29 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T19:04:29.935713703)	アセットの読み込みが完了しました。 File : tileset.png
+11月 29, 2022 7:04:29 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T19:04:29.940638861)	ワールドの作成が完了しました。
+11月 29, 2022 7:04:35 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T19:04:35.987582595)	ゲームが終了しました======================
+11月 29, 2022 7:04:48 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T19:04:48.846515209)	ゲームが開始されました====================
+11月 29, 2022 7:04:51 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T19:04:51.279349598)	アセットの読み込みが完了しました。 File : tileset.png
+11月 29, 2022 7:04:51 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T19:04:51.284188112)	ワールドの作成が完了しました。
+11月 29, 2022 7:05:12 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T19:05:12.067745247)	ゲームが終了しました======================
+11月 29, 2022 7:17:46 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T19:17:46.220963759)	ゲームが開始されました====================
+11月 29, 2022 7:17:49 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T19:17:49.825703279)	アセットの読み込みが完了しました。 File : tileset.png
+11月 29, 2022 7:17:49 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T19:17:49.831112495)	ワールドの作成が完了しました。
+11月 29, 2022 7:18:14 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T19:18:14.426809653)	ゲームが終了しました======================
+11月 29, 2022 7:20:31 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T19:20:31.956231121)	ゲームが開始されました====================
+11月 29, 2022 7:20:35 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T19:20:35.859093461)	アセットの読み込みが完了しました。 File : tileset.png
+11月 29, 2022 7:20:35 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T19:20:35.865698101)	ワールドの作成が完了しました。
+11月 29, 2022 7:20:53 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-11-29T19:20:53.165794486)	ゲームが終了しました======================
+12月 16, 2022 10:51:19 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-12-16T22:51:19.842668037)	ゲームが開始されました====================
+12月 16, 2022 10:51:25 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-12-16T22:51:25.025783082)	アセットの読み込みが完了しました。 File : tileset.png
+12月 16, 2022 10:51:25 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-12-16T22:51:25.033423194)	ワールドの作成が完了しました。
+12月 16, 2022 10:51:48 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-12-16T22:51:48.551305832)	ゲームが終了しました======================
+12月 20, 2022 1:27:53 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-12-20T13:27:53.800457274)	ゲームが開始されました====================
+12月 21, 2022 3:40:25 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-12-21T15:40:25.613924618)	ゲームが開始されました====================
+12月 21, 2022 3:45:09 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2022-12-21T15:45:09.706475897)	ゲームが開始されました====================
+1月 19, 2023 4:22:04 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2023-01-19T16:22:04.174687050)	ゲームが開始されました====================
+1月 19, 2023 4:22:07 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2023-01-19T16:22:07.611907345)	アセットの読み込みが完了しました。 File : tileset.png
+1月 19, 2023 4:22:07 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2023-01-19T16:22:07.617236127)	ワールドの作成が完了しました。
+1月 19, 2023 4:22:32 午後 jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+情報: (2023-01-19T16:22:32.104677728)	ゲームを終了しました======================
