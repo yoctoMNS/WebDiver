@@ -9,14 +9,14 @@ import jp.xdomain.html.yoctomns.core.Size;
 import jp.xdomain.html.yoctomns.state.PlayState;
 import jp.xdomain.html.yoctomns.state.State;
 
-public class NormalTile extends Tile {
-    public NormalTile(State state, Position position, Size size, String name, int scale, BufferedImage texture) {
+public class ObjectTile extends Tile {
+    public ObjectTile(State state, Position position, Size size, String name, int scale, BufferedImage texture) {
         super(state, position, size, name, scale, texture);
     }
 
     @Override
     public boolean canWalk() {
-        return true;
+        return false;
     }
 
     @Override
@@ -36,7 +36,7 @@ public class NormalTile extends Tile {
                     null);
 
             if (state.getGame().isDebugMode()) {
-                graphics2D.setColor(Color.GREEN);
+                graphics2D.setColor(Color.ORANGE);
                 graphics2D.drawRect(
                         getX() * getWidth() * scale + slideTilePos.getX(),
                         getY() * getHeight() * scale + slideTilePos.getY(),

@@ -5,11 +5,13 @@ import java.awt.Rectangle;
 
 import jp.xdomain.html.yoctomns.core.Position;
 import jp.xdomain.html.yoctomns.core.Size;
-import jp.xdomain.html.yoctomns.game.Game;
+import jp.xdomain.html.yoctomns.display.GameCamera;
 import jp.xdomain.html.yoctomns.input.Keyboard;
+import jp.xdomain.html.yoctomns.state.State;
 
 public abstract class Entity {
-    protected Game game;
+    protected State state;
+    protected GameCamera gameCamera;
     protected Keyboard keyboard;
     protected Position position;
     protected Size size;
@@ -17,9 +19,10 @@ public abstract class Entity {
     protected String name;
     protected int scale;
 
-    public Entity(Game game, Position position, Size size, String name, int scale) {
-        this.game = game;
-        this.keyboard = game.getKeyboard();
+    public Entity(State state, Position position, Size size, String name, int scale) {
+        this.state = state;
+        this.gameCamera = new GameCamera();
+        this.keyboard = state.getKeyboard();
         this.position = position;
         this.size = size;
         this.bounds = new Rectangle(position.getX(), position.getY(), size.getWidth(), size.getHeight());

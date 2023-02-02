@@ -45,4 +45,17 @@ public class ImageUtil {
 
         return animations;
     }
+
+    public static List<BufferedImage> convertToTileAssetsFromFile(String path, int width, int height) throws IOException, IllegalArgumentException {
+        List<BufferedImage> assets = new ArrayList<>();
+        BufferedImage image = readImage(path);
+
+        for (int y = 0; y < image.getHeight(); y += height) {
+            for (int x = 0; x < image.getWidth(); x += width) {
+                assets.add(image.getSubimage(x, y, width, height));
+            }
+        }
+
+        return assets;
+    }
 }

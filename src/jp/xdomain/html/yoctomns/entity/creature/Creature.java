@@ -6,7 +6,7 @@ import jp.xdomain.html.yoctomns.core.Position;
 import jp.xdomain.html.yoctomns.core.Size;
 import jp.xdomain.html.yoctomns.entity.Entity;
 import jp.xdomain.html.yoctomns.graphics.Animation;
-import jp.xdomain.html.yoctomns.game.Game;
+import jp.xdomain.html.yoctomns.state.State;
 
 public abstract class Creature extends Entity {
     protected int vx;
@@ -15,8 +15,8 @@ public abstract class Creature extends Entity {
     protected Direction direction;
     protected List<Animation> animations;
 
-    public Creature(Game game, Position position, Size size, String name, int scale) {
-        super(game, position, size, name, scale);
+    public Creature(State state, Position position, Size size, String name, int scale) {
+        super(state, position, size, name, scale);
 
         this.direction = Direction.DOWN;
     }

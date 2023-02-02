@@ -13,7 +13,7 @@ public class GameCamera {
         this.screenHeight = Game.SCREEN_HEIGHT;
     }
 
-    public Position getScreenCenterPosition(Entity entity) {
+    public Position getScreenCenterPos(Entity entity) {
         int centerX = screenWidth / 2 - (entity.getWidth() * entity.getScale()) / 2;
         int centerY = screenHeight / 2 - (entity.getHeight() * entity.getScale()) / 2;
 
@@ -21,8 +21,8 @@ public class GameCamera {
     }
 
     public Position getSlideTilesPos(Entity entity) {
-        int moveX = getScreenCenterPosition(entity).getX() - entity.getX() * entity.getScale();
-        int moveY = getScreenCenterPosition(entity).getY() - entity.getY() * entity.getScale();
+        int moveX = getScreenCenterPos(entity).getX() - entity.getX() * entity.getScale();
+        int moveY = getScreenCenterPos(entity).getY() - entity.getY() * entity.getScale();
 
         return new Position(moveX, moveY);
     }

@@ -1,7 +1,6 @@
 package jp.xdomain.html.yoctomns.game;
 
 import jp.xdomain.html.yoctomns.display.Display;
-import jp.xdomain.html.yoctomns.display.GameCamera;
 import jp.xdomain.html.yoctomns.input.Keyboard;
 import jp.xdomain.html.yoctomns.state.PlayState;
 import jp.xdomain.html.yoctomns.state.State;
@@ -16,7 +15,6 @@ public class Game {
     private Keyboard keyboard;
     private Display display;
     private State state;
-    private GameCamera gameCamera;
     // private Mouse mouse;
     // private MouseHandler mouseHandler;
     // private UIDebugInfo uiDebugInfo;
@@ -34,7 +32,6 @@ public class Game {
         this.display.getCanvas().requestFocus();
         this.state = new PlayState(this);
         // this.state = new StartState(this);
-        this.gameCamera = new GameCamera();
     }
 
     public void update() throws RuntimeException, Error {
@@ -58,6 +55,10 @@ public class Game {
 
     public void setDebugMode(boolean debugMode) {
         this.debugMode = debugMode;
+    }
+
+    public State getState() {
+        return state;
     }
 
     public Keyboard getKeyboard() {
