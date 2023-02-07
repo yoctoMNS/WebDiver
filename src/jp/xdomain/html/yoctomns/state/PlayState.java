@@ -16,6 +16,7 @@ import jp.xdomain.html.yoctomns.entity.tile.Tile;
 import jp.xdomain.html.yoctomns.entity.tile.TileAssets;
 import jp.xdomain.html.yoctomns.game.Game;
 import jp.xdomain.html.yoctomns.util.FileUtil;
+import jp.xdomain.html.yoctomns.util.LoggingUtil;
 import jp.xdomain.html.yoctomns.world.WorldData;
 
 public class PlayState extends State {
@@ -25,15 +26,13 @@ public class PlayState extends State {
 
     public PlayState(Game game) {
         super(game);
-
         this.layers = new ArrayList<>();
         try {
             WorldData worldData = FileUtil.buildWorldDataForTextData("/img/tile/world1.map");
             buildTiles(worldData);
             this.player = new Player(this, new Position(0, 0), new Size(worldData.getTileWidth(), worldData.getTileHeight()), "yocto", worldData.getTileScale());
         } catch (IOException e) {
-            System.err.println("Failed build world data.");
-            e.printStackTrace();
+            LoggingUtil.severePrint("Failed build world data.", e);
         }
     }
 
@@ -43,7 +42,6 @@ public class PlayState extends State {
         Tile[][] tiles = null;
         int x = 0;
         int y = 0;
-
         for (int i = 0; i < worldData.getMapLength(); i++) {
             if (i % (worldData.getWidth() * worldData.getHeight()) == 0) {
                 if (tiles == null) {
@@ -53,7 +51,6 @@ public class PlayState extends State {
                     tiles = new Tile[worldData.getHeight()][worldData.getWidth()];
                 }
             }
-
             Position pos = new Position(x, y);
             Size size = new Size(worldData.getTileWidth(), worldData.getTileHeight());
             String name = "Normal Tile";
@@ -78,12 +75,13 @@ public class PlayState extends State {
                 y = 0;
             }
         }
+
+        LoggingUtil.infoPrint("World building is complete.");
     }
 
     @Override
     public void update() {
         super.update();
-
         player.update();
     }
 
@@ -98,7 +96,6 @@ public class PlayState extends State {
                 }
             }
         });
-
         player.draw(graphics2D);
     }
 

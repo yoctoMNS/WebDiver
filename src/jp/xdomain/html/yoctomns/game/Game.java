@@ -11,32 +11,33 @@ public class Game {
     public static final String TITLE = "Web Diver Pre-Alpha";
 
     private boolean debugMode;
-    // TODO
     private Keyboard keyboard;
     private Display display;
     private State state;
+    // TODO
     // private Mouse mouse;
     // private MouseHandler mouseHandler;
     // private UIDebugInfo uiDebugInfo;
 
     public Game() {
         this.debugMode = true;
-        // TODO
         this.keyboard = new Keyboard();
+        // TODO
         // this.mouse = new Mouse();
         // this.mouseHandler = new MouseHandler();
         this.display = new Display(TITLE, SCREEN_WIDTH, SCREEN_HEIGHT);
         this.display.getCanvas().addKeyListener(keyboard);
+        this.display.getCanvas().requestFocus();
+        // TODO
         // this.display.getCanvas().addMouseListener(mouse);
         // this.display.getCanvas().addMouseMotionListener(mouse);
-        this.display.getCanvas().requestFocus();
         this.state = new PlayState(this);
         // this.state = new StartState(this);
     }
 
     public void update() throws RuntimeException, Error {
-        // TODO
         keyboard.update();
+        // TODO
         // mouseHandler.update(state);
         state.update();
     }

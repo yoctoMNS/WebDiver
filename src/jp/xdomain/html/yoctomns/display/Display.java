@@ -12,6 +12,7 @@ import java.awt.event.WindowListener;
 import javax.swing.JFrame;
 
 import jp.xdomain.html.yoctomns.state.State;
+import jp.xdomain.html.yoctomns.util.LoggingUtil;
 
 public class Display extends JFrame implements WindowListener {
     private Canvas canvas;
@@ -22,38 +23,29 @@ public class Display extends JFrame implements WindowListener {
 
         GraphicsConfiguration graphicsConfiguration = GraphicsEnvironment.getLocalGraphicsEnvironment().getDefaultScreenDevice().getDefaultConfiguration();
         this.canvas = new Canvas(graphicsConfiguration);
-
         setSize(width, height);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setResizable(false);
         setLocationRelativeTo(null);
-
         canvas.setPreferredSize(getSize());
         canvas.setMaximumSize(getSize());
         canvas.setMinimumSize(getSize());
         canvas.setBackground(Color.BLACK);
-
         add(canvas);
         pack();
-
         canvas.createBufferStrategy(2);
         setVisible(true);
         addWindowListener(this);
     }
 
-    // TODO
     public void draw(State state) {
         if (bufferStrategy == null) {
             canvas.createBufferStrategy(2);
         }
-
         bufferStrategy = canvas.getBufferStrategy();
-
         Graphics2D graphics2D = (Graphics2D) bufferStrategy.getDrawGraphics();
         graphics2D.clearRect(0, 0, getWidth(), getHeight());
-
         state.draw(graphics2D);
-
         graphics2D.dispose();
         bufferStrategy.show();
     }
@@ -64,8 +56,8 @@ public class Display extends JFrame implements WindowListener {
 
     @Override
     public void windowClosing(WindowEvent e) {
-        // LoggingUtil.infoPrint("ゲームを終了しました======================");
-        // LoggingUtil.close();
+        LoggingUtil.infoPrint("The game is closed.");
+        LoggingUtil.close();
 	}
 
     @Override

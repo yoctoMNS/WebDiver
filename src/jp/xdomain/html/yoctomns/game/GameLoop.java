@@ -1,5 +1,7 @@
 package jp.xdomain.html.yoctomns.game;
 
+import jp.xdomain.html.yoctomns.util.LoggingUtil;
+
 public class GameLoop implements Runnable {
     public static final long ONE_SEC_NANO_TIME = 1000000000;
     public static final int UPDATES_PER_SOCOND = 60;
@@ -46,16 +48,14 @@ public class GameLoop implements Runnable {
                 }
             }
         } catch (RuntimeException e) {
-            e.printStackTrace();
-            // TODO
-            // LoggingUtil.severePrint("ゲーム中に致命的な例外が発生しました。ゲームを終了します。", e);
+            LoggingUtil.severePrint("A fatal exception occurred during game execution. The game will be terminated.", e);
+        } catch (Exception e) {
+            LoggingUtil.severePrint("A fatal exception occurred during game execution. The game will be terminated.", e);
         } catch (Error e) {
-            e.printStackTrace();
-            // TODO
-            // LoggingUtil.severePrint("システムに致命的ながエラー発生しました。ゲームを終了します。", e);
+            LoggingUtil.severePrint("A fatal error occurred in the system. The game will be terminated.", e);
         } finally {
-            // TODO
-            // LoggingUtil.infoPrint("ゲームを終了しました======================");
+            LoggingUtil.infoPrint("The game is closed.");
+            LoggingUtil.close();
         }
     }
 

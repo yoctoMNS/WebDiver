@@ -3,5 +3,5 @@ javac -Xlint:unchecked -d ./bin -encoding utf8 -classpath ./res -sourcepath ./sr
 if [ $? -eq 0 ]; then
     java -classpath ./res:./bin jp.xdomain.html.yoctomns.GameLauncher
 else
-    echo 'build is failed.'
+    printf '\033[31m%s\n\033[0m' 'build is failed.'
 fi
