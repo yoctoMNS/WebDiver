@@ -28,7 +28,6 @@ public class FileUtil {
             int tileScale = 0;
             List<Integer> mapData = new ArrayList<>();
             int idx = 0;
-
             while ((line = reader.readLine()) != null) {
                 if      (idx == WORLD_RES_FILE_NAME) fileName = line;
                 else if (idx == WORLD_WIDTH)         width = Integer.parseInt(line);
@@ -44,16 +43,7 @@ public class FileUtil {
                 }
                 idx++;
             }
-
-            return new WorldData(
-                    width,
-                    height,
-                    tileWidth,
-                    tileHeight,
-                    tileScale,
-                    mapData,
-                    fileName
-            );
+            return new WorldData(width, height, tileWidth, tileHeight, tileScale, mapData, fileName);
         }
     }
 }

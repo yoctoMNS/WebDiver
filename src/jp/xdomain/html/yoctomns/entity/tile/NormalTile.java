@@ -34,7 +34,6 @@ public class NormalTile extends Tile {
                     getWidth() * scale,
                     getHeight() * scale,
                     null);
-
             if (state.getGame().isDebugMode()) {
                 graphics2D.setColor(Color.GREEN);
                 graphics2D.drawRect(

@@ -9,7 +9,6 @@ import java.util.logging.SimpleFormatter;
 
 public class LoggingUtil {
     private static final String LOG_FILE_DIRECTORY = "/log/system/system.log";
-
     private static FileHandler fileHandler = null;
     private static Logger logger = Logger.getLogger(LoggingUtil.class.getName());
 
@@ -22,6 +21,8 @@ public class LoggingUtil {
             logger.setLevel(Level.ALL);
         } catch (IOException e) {
             System.err.println("A file read or write error has occurred.");
+        } finally {
+            close();
         }
     }
 

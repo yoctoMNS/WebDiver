@@ -22,10 +22,11 @@ public class Animation {
     public void update() {
         if (currentFrame == 0) {
             idx++;
-            if (idx == images.size()) idx = 0;
+            if (idx == images.size()) {
+                idx = 0;
+            }
             currentFrame = nextFrame;
         }
-
         if (!stop) {
             --currentFrame;
         }

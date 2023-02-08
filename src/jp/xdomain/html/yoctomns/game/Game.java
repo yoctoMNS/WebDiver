@@ -9,7 +9,6 @@ public class Game {
     public static final int SCREEN_WIDTH = 1920;
     public static final int SCREEN_HEIGHT = 1080;
     public static final String TITLE = "Web Diver Pre-Alpha";
-
     private boolean debugMode;
     private Keyboard keyboard;
     private Display display;

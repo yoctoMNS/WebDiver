@@ -19,7 +19,6 @@ public enum Direction {
                 return d;
             }
         }
-
         return null;
     }
 }

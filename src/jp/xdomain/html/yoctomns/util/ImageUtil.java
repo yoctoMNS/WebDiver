@@ -20,7 +20,6 @@ public class ImageUtil {
         Graphics2D graphics2D = compatibleImage.createGraphics();
         graphics2D.drawImage(readImage, 0, 0, null);
         graphics2D.dispose();
-
         return compatibleImage;
     }
 
@@ -32,30 +31,24 @@ public class ImageUtil {
     public static List<Animation> convertToAnimationFromFile(String path, int width, int height, int frame) throws IOException, IllegalArgumentException {
         List<Animation> animations = new ArrayList<>();
         BufferedImage image = readImage(path);
-
         for (int y = 0; y < image.getHeight(); y += height) {
             List<BufferedImage> assets = new ArrayList<>();
-
             for (int x = 0; x < image.getWidth(); x += width) {
                 assets.add(image.getSubimage(x, y, width, height));
             }
-
             animations.add(new Animation(assets, frame));
         }
-
         return animations;
     }
 
     public static List<BufferedImage> convertToTileAssetsFromFile(String path, int width, int height) throws IOException, IllegalArgumentException {
         List<BufferedImage> assets = new ArrayList<>();
         BufferedImage image = readImage(path);
-
         for (int y = 0; y < image.getHeight(); y += height) {
             for (int x = 0; x < image.getWidth(); x += width) {
                 assets.add(image.getSubimage(x, y, width, height));
             }
         }
-
         return assets;
     }
 }

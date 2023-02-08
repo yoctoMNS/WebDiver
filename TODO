@@ -1,7 +1,7 @@
-画像の読み込み - DONE
-アニメーションの実装 - DONE
-ゲームカメラの対応  - DONE
-マップ生成システム - DONE
+Load image - DONE
+Animation implementation - DONE
+Game camera support - DONE
+Map building system - DONE
 
-ログ処理の実装 - WIP
-タイルのあたり判定 - NONE
+Log processing implementation - WIP
+Tile collision determination - NONE

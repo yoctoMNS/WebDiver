@@ -17,7 +17,6 @@ public abstract class Creature extends Entity {
 
     public Creature(State state, Position position, Size size, String name, int scale) {
         super(state, position, size, name, scale);
-
         this.direction = Direction.DOWN;
     }
 

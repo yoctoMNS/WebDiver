@@ -5,10 +5,8 @@ import jp.xdomain.html.yoctomns.util.LoggingUtil;
 public class GameLoop implements Runnable {
     public static final long ONE_SEC_NANO_TIME = 1000000000;
     public static final int UPDATES_PER_SOCOND = 60;
-
-    private static final int ONE_SEC = 1;
-    private static final int DEFAULT_FPS = 60;
-
+    public static final int ONE_SEC = 1;
+    public static final int DEFAULT_FPS = 60;
     private boolean running;
     private double targetFrame;
     private Game game;
@@ -25,22 +23,18 @@ public class GameLoop implements Runnable {
         double delta = 0;
         long timer = 0;
         int counter = 0;
-
         try {
             while (running) {
                 long now = System.nanoTime();
                 delta += (now - last) / targetFrame;
                 timer += (now - last);
                 last = now;
-
                 if (delta >= ONE_SEC) {
                     update();
                     draw();
                     delta--;
                 }
-
                 counter++;
-
                 if (timer >= ONE_SEC_NANO_TIME) {
                     System.out.println(counter);
                     counter = 0;

@@ -75,7 +75,6 @@ public class PlayState extends State {
                 y = 0;
             }
         }
-
         LoggingUtil.infoPrint("World building is complete.");
     }
 

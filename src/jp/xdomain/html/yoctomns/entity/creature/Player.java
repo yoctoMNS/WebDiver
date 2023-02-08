@@ -13,29 +13,26 @@ import jp.xdomain.html.yoctomns.state.State;
 import jp.xdomain.html.yoctomns.util.ImageUtil;
 
 public class Player extends Creature {
+    public static final String ASSET_FILE_NAME = "/img/creature/player.png";
     private static final int BOUNDS_OFFSET_X = 4;
     private static final int BOUNDS_OFFSET_Y = 6;
     private static final int BOUNDS_WIDTH = 7;
     private static final int BOUNDS_HEIGHT = 10;
 
-    public static final String ASSET_FILE_NAME = "/img/creature/player.png";
-
     public Player(State state, Position position, Size size, String name, int scale) {
         super(state, position, size, name, scale);
-
         this.bounds = new Rectangle(getX() + BOUNDS_OFFSET_X, getY() + BOUNDS_OFFSET_Y, BOUNDS_WIDTH, BOUNDS_HEIGHT);
         this.direction = Direction.DOWN;
         this.speed = 1;
         try {
             this.animations = ImageUtil.convertToAnimationFromFile(ASSET_FILE_NAME, size.getWidth(), size.getHeight(), 10);
         } catch (IOException e) {
-            e.printStackTrace();
+            LoggingUtil.severePrint("Failed load animation file.", e);
         }
     }
  
     private void handleInput() {
         vx = vy = 0;
-
         if (keyboard.isPressedKey(KeyEvent.VK_W)) {
             vy = -speed;
             direction = Direction.UP;
@@ -68,7 +65,6 @@ public class Player extends Creature {
     public void draw(Graphics2D graphics2D) {
         BufferedImage image = animations.get(direction.getValue()).getImage();
         Position screenCenterPos = gameCamera.getScreenCenterPos(this);
-
         graphics2D.drawImage(image, screenCenterPos.getX(), screenCenterPos.getY(), getWidth() * scale, getHeight() * scale, null);
     }
 }

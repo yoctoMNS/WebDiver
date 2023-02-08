@@ -20,7 +20,6 @@ public class Display extends JFrame implements WindowListener {
 
     public Display(String title, int width, int height) {
         super(title);
-
         GraphicsConfiguration graphicsConfiguration = GraphicsEnvironment.getLocalGraphicsEnvironment().getDefaultScreenDevice().getDefaultConfiguration();
         this.canvas = new Canvas(graphicsConfiguration);
         setSize(width, height);
