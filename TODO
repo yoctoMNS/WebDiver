@@ -1,7 +1,11 @@
 Load image - DONE
 Animation implementation - DONE
-Game camera support - DONE
-Map building system - DONE
+Game camera - DONE
+Map building from text file - DONE
+Log - DONE
 
-Log processing implementation - WIP
-Tile collision determination - NONE
+PlayState class refactoring - WIP
+Tile collision - WIP
+
+UI - NONE
+Mouse - NONE

@@ -16,7 +16,7 @@ import jp.xdomain.html.yoctomns.graphics.Animation;
 public class ImageUtil {
     public static BufferedImage readImage(String path) throws IOException, IllegalArgumentException {
         BufferedImage readImage = ImageIO.read(ImageUtil.class.getResourceAsStream(path));
-        BufferedImage compatibleImage =createCompatibleImage(readImage.getWidth(), readImage.getHeight(), Transparency.BITMASK);
+        BufferedImage compatibleImage = createCompatibleImage(readImage.getWidth(), readImage.getHeight(), Transparency.BITMASK);
         Graphics2D graphics2D = compatibleImage.createGraphics();
         graphics2D.drawImage(readImage, 0, 0, null);
         graphics2D.dispose();

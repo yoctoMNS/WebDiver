@@ -15,7 +15,6 @@ public abstract class Entity {
     protected Keyboard keyboard;
     protected Position position;
     protected Size size;
-    protected Rectangle bounds;
     protected String name;
     protected int scale;
 
@@ -25,7 +24,6 @@ public abstract class Entity {
         this.keyboard = state.getKeyboard();
         this.position = position;
         this.size = size;
-        this.bounds = new Rectangle(position.getX(), position.getY(), size.getWidth(), size.getHeight());
         this.name = name;
         this.scale = scale;
     }
@@ -48,6 +46,10 @@ public abstract class Entity {
 
     public int getHeight() {
         return size.getHeight();
+    }
+
+    public String getName() {
+        return name;
     }
 
     public int getScale() {

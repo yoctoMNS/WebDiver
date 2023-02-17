@@ -2,6 +2,7 @@ package jp.xdomain.html.yoctomns.display;
 
 import jp.xdomain.html.yoctomns.core.Position;
 import jp.xdomain.html.yoctomns.entity.Entity;
+import jp.xdomain.html.yoctomns.entity.creature.Player;
 import jp.xdomain.html.yoctomns.game.Game;
 
 public class GameCamera {
@@ -20,8 +21,14 @@ public class GameCamera {
     }
 
     public Position getSlideTilesPos(Entity entity) {
-        int moveX = getScreenCenterPos(entity).getX() - entity.getX() * entity.getScale();
-        int moveY = getScreenCenterPos(entity).getY() - entity.getY() * entity.getScale();
+        int moveX = getScreenCenterPos(entity).getX() * entity.getScale() - entity.getX() * entity.getScale();
+        int moveY = getScreenCenterPos(entity).getY() * entity.getScale() - entity.getY() * entity.getScale();
+        return new Position(moveX, moveY);
+    }
+
+    public Position getSlideTilePosFromPlayer(Player player) {
+        int moveX = getScreenCenterPos(player).getX() + (Player.BOUNDS_OFFSET_X * player.getScale()) - player.getX() * player.getScale();
+        int moveY = getScreenCenterPos(player).getY() + (Player.BOUNDS_OFFSET_Y * player.getScale()) - player.getY() * player.getScale();
         return new Position(moveX, moveY);
     }
 }

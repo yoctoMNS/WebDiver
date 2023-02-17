@@ -1,0 +1,1438 @@
+Feb 09, 2023 2:09:45 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T14:09:45.996290547)	The game has started.
+Feb 09, 2023 2:09:46 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T14:09:46.180273419)	World building is complete.
+Feb 09, 2023 2:09:52 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T14:09:52.111132815)	The game is closed.
+Feb 09, 2023 2:55:31 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T14:55:31.736230340)	The game has started.
+Feb 09, 2023 2:55:31 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T14:55:31.935981589)	World building is complete.
+Feb 09, 2023 2:55:36 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T14:55:36.858611430)	The game is closed.
+Feb 09, 2023 2:56:39 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T14:56:39.593280258)	The game has started.
+Feb 09, 2023 2:56:39 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T14:56:39.786041989)	World building is complete.
+Feb 09, 2023 2:56:39 PM jp.xdomain.html.yoctomns.util.LoggingUtil severePrint
+SEVERE: (2023-02-09T14:56:39.842950406)	A fatal exception occurred during game execution. The game will be terminated.
+java.lang.NullPointerException: Cannot invoke "jp.xdomain.html.yoctomns.entity.tile.Tile.draw(java.awt.Graphics2D)" because "<parameter2>" is null
+	at jp.xdomain.html.yoctomns.state.PlayState.lambda$draw$0(PlayState.java:90)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at jp.xdomain.html.yoctomns.state.PlayState.draw(PlayState.java:90)
+	at jp.xdomain.html.yoctomns.display.Display.draw(Display.java:47)
+	at jp.xdomain.html.yoctomns.game.Game.draw(Game.java:45)
+	at jp.xdomain.html.yoctomns.game.GameLoop.draw(GameLoop.java:61)
+	at jp.xdomain.html.yoctomns.game.GameLoop.run(GameLoop.java:34)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+	at jp.xdomain.html.yoctomns.GameLauncher.<init>(GameLauncher.java:10)
+	at jp.xdomain.html.yoctomns.GameLauncher.main(GameLauncher.java:14)
+
+Feb 09, 2023 2:56:39 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T14:56:39.845028157)	The game is closed.
+Feb 09, 2023 2:58:33 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T14:58:33.898795530)	The game has started.
+Feb 09, 2023 2:58:34 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T14:58:34.085633599)	World building is complete.
+Feb 09, 2023 2:58:34 PM jp.xdomain.html.yoctomns.util.LoggingUtil severePrint
+SEVERE: (2023-02-09T14:58:34.107169085)	A fatal exception occurred during game execution. The game will be terminated.
+java.lang.NullPointerException: Cannot invoke "jp.xdomain.html.yoctomns.entity.tile.Tile.getName()" because "<parameter1>" is null
+	at jp.xdomain.html.yoctomns.state.PlayState.lambda$draw$0(PlayState.java:92)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at jp.xdomain.html.yoctomns.state.PlayState.draw(PlayState.java:92)
+	at jp.xdomain.html.yoctomns.display.Display.draw(Display.java:47)
+	at jp.xdomain.html.yoctomns.game.Game.draw(Game.java:45)
+	at jp.xdomain.html.yoctomns.game.GameLoop.draw(GameLoop.java:61)
+	at jp.xdomain.html.yoctomns.game.GameLoop.run(GameLoop.java:34)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+	at jp.xdomain.html.yoctomns.GameLauncher.<init>(GameLauncher.java:10)
+	at jp.xdomain.html.yoctomns.GameLauncher.main(GameLauncher.java:14)
+
+Feb 09, 2023 2:58:34 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T14:58:34.108392778)	The game is closed.
+Feb 09, 2023 2:59:45 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T14:59:45.157501847)	The game has started.
+Feb 09, 2023 2:59:45 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T14:59:45.341004085)	World building is complete.
+Feb 09, 2023 2:59:45 PM jp.xdomain.html.yoctomns.util.LoggingUtil severePrint
+SEVERE: (2023-02-09T14:59:45.382824763)	A fatal exception occurred during game execution. The game will be terminated.
+java.lang.NullPointerException: Cannot invoke "jp.xdomain.html.yoctomns.entity.tile.Tile.draw(java.awt.Graphics2D)" because "<local5>" is null
+	at jp.xdomain.html.yoctomns.state.PlayState.lambda$draw$0(PlayState.java:94)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at jp.xdomain.html.yoctomns.state.PlayState.draw(PlayState.java:92)
+	at jp.xdomain.html.yoctomns.display.Display.draw(Display.java:47)
+	at jp.xdomain.html.yoctomns.game.Game.draw(Game.java:45)
+	at jp.xdomain.html.yoctomns.game.GameLoop.draw(GameLoop.java:61)
+	at jp.xdomain.html.yoctomns.game.GameLoop.run(GameLoop.java:34)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+	at jp.xdomain.html.yoctomns.GameLauncher.<init>(GameLauncher.java:10)
+	at jp.xdomain.html.yoctomns.GameLauncher.main(GameLauncher.java:14)
+
+Feb 09, 2023 2:59:45 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T14:59:45.384039379)	The game is closed.
+Feb 09, 2023 3:01:03 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T15:01:03.172455389)	The game has started.
+Feb 09, 2023 3:01:03 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T15:01:03.371866831)	World building is complete.
+Feb 09, 2023 3:01:03 PM jp.xdomain.html.yoctomns.util.LoggingUtil severePrint
+SEVERE: (2023-02-09T15:01:03.405098011)	A fatal exception occurred during game execution. The game will be terminated.
+java.lang.NullPointerException: Cannot invoke "jp.xdomain.html.yoctomns.entity.tile.Tile.draw(java.awt.Graphics2D)" because "<local9>" is null
+	at jp.xdomain.html.yoctomns.state.PlayState.lambda$draw$0(PlayState.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at jp.xdomain.html.yoctomns.state.PlayState.draw(PlayState.java:92)
+	at jp.xdomain.html.yoctomns.display.Display.draw(Display.java:47)
+	at jp.xdomain.html.yoctomns.game.Game.draw(Game.java:45)
+	at jp.xdomain.html.yoctomns.game.GameLoop.draw(GameLoop.java:61)
+	at jp.xdomain.html.yoctomns.game.GameLoop.run(GameLoop.java:34)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+	at jp.xdomain.html.yoctomns.GameLauncher.<init>(GameLauncher.java:10)
+	at jp.xdomain.html.yoctomns.GameLauncher.main(GameLauncher.java:14)
+
+Feb 09, 2023 3:01:03 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T15:01:03.405980892)	The game is closed.
+Feb 09, 2023 3:01:28 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T15:01:28.425685563)	The game has started.
+Feb 09, 2023 3:01:28 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T15:01:28.628304934)	World building is complete.
+Feb 09, 2023 3:01:28 PM jp.xdomain.html.yoctomns.util.LoggingUtil severePrint
+SEVERE: (2023-02-09T15:01:28.674019870)	A fatal exception occurred during game execution. The game will be terminated.
+java.lang.NullPointerException: Cannot invoke "jp.xdomain.html.yoctomns.entity.tile.Tile.draw(java.awt.Graphics2D)" because "<local9>" is null
+	at jp.xdomain.html.yoctomns.state.PlayState.lambda$draw$0(PlayState.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at jp.xdomain.html.yoctomns.state.PlayState.draw(PlayState.java:92)
+	at jp.xdomain.html.yoctomns.display.Display.draw(Display.java:47)
+	at jp.xdomain.html.yoctomns.game.Game.draw(Game.java:45)
+	at jp.xdomain.html.yoctomns.game.GameLoop.draw(GameLoop.java:61)
+	at jp.xdomain.html.yoctomns.game.GameLoop.run(GameLoop.java:34)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+	at jp.xdomain.html.yoctomns.GameLauncher.<init>(GameLauncher.java:10)
+	at jp.xdomain.html.yoctomns.GameLauncher.main(GameLauncher.java:14)
+
+Feb 09, 2023 3:01:28 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T15:01:28.675051101)	The game is closed.
+Feb 09, 2023 3:01:50 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T15:01:50.547812727)	The game has started.
+Feb 09, 2023 3:01:50 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T15:01:50.739439717)	World building is complete.
+Feb 09, 2023 3:01:50 PM jp.xdomain.html.yoctomns.util.LoggingUtil severePrint
+SEVERE: (2023-02-09T15:01:50.785052251)	A fatal exception occurred during game execution. The game will be terminated.
+java.lang.NullPointerException: Cannot invoke "jp.xdomain.html.yoctomns.entity.tile.Tile.draw(java.awt.Graphics2D)" because "<local9>" is null
+	at jp.xdomain.html.yoctomns.state.PlayState.lambda$draw$0(PlayState.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at jp.xdomain.html.yoctomns.state.PlayState.draw(PlayState.java:92)
+	at jp.xdomain.html.yoctomns.display.Display.draw(Display.java:47)
+	at jp.xdomain.html.yoctomns.game.Game.draw(Game.java:45)
+	at jp.xdomain.html.yoctomns.game.GameLoop.draw(GameLoop.java:61)
+	at jp.xdomain.html.yoctomns.game.GameLoop.run(GameLoop.java:34)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+	at jp.xdomain.html.yoctomns.GameLauncher.<init>(GameLauncher.java:10)
+	at jp.xdomain.html.yoctomns.GameLauncher.main(GameLauncher.java:14)
+
+Feb 09, 2023 3:01:50 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T15:01:50.785985648)	The game is closed.
+Feb 09, 2023 3:02:22 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T15:02:22.041837705)	The game has started.
+Feb 09, 2023 3:02:22 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T15:02:22.240629189)	World building is complete.
+Feb 09, 2023 3:02:29 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T15:02:29.730584304)	The game is closed.
+Feb 09, 2023 3:12:50 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T15:12:50.116422774)	The game has started.
+Feb 09, 2023 3:12:50 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T15:12:50.301338125)	World building is complete.
+Feb 09, 2023 3:12:54 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T15:12:54.690282253)	The game is closed.
+Feb 09, 2023 3:35:10 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T15:35:10.917975682)	The game has started.
+Feb 09, 2023 3:35:11 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T15:35:11.099197287)	World building is complete.
+Feb 09, 2023 3:35:14 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T15:35:14.370043467)	The game is closed.
+Feb 09, 2023 3:35:33 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T15:35:33.528996926)	The game has started.
+Feb 09, 2023 3:35:33 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T15:35:33.717852463)	World building is complete.
+Feb 09, 2023 3:35:53 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T15:35:53.028875594)	The game is closed.
+Feb 09, 2023 3:36:05 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T15:36:05.957707380)	The game has started.
+Feb 09, 2023 3:36:06 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T15:36:06.158557172)	World building is complete.
+Feb 09, 2023 3:36:12 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T15:36:12.768972960)	The game is closed.
+Feb 09, 2023 3:38:55 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T15:38:55.756703040)	The game has started.
+Feb 09, 2023 3:38:55 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T15:38:55.973512957)	World building is complete.
+Feb 09, 2023 3:39:17 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T15:39:17.436427624)	The game is closed.
+Feb 09, 2023 4:11:58 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T16:11:58.934250927)	The game has started.
+Feb 09, 2023 4:11:59 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T16:11:59.127458734)	World building is complete.
+Feb 09, 2023 4:12:03 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T16:12:03.490481616)	The game is closed.
+Feb 09, 2023 4:12:52 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T16:12:52.654016873)	The game has started.
+Feb 09, 2023 4:12:52 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T16:12:52.839612977)	World building is complete.
+Feb 09, 2023 4:12:56 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T16:12:56.490372943)	The game is closed.
+Feb 09, 2023 4:13:08 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T16:13:08.709449585)	The game has started.
+Feb 09, 2023 4:13:08 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T16:13:08.899499230)	World building is complete.
+Feb 09, 2023 4:13:16 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T16:13:16.230548137)	The game is closed.
+Feb 09, 2023 4:13:40 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T16:13:40.604030565)	The game has started.
+Feb 09, 2023 4:13:40 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T16:13:40.806525012)	World building is complete.
+Feb 09, 2023 4:13:49 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T16:13:49.030159471)	The game is closed.
+Feb 09, 2023 4:14:08 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T16:14:08.983952597)	The game has started.
+Feb 09, 2023 4:14:09 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T16:14:09.171279011)	World building is complete.
+Feb 09, 2023 4:14:11 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T16:14:11.710266520)	The game is closed.
+Feb 09, 2023 4:14:40 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T16:14:40.930391717)	The game has started.
+Feb 09, 2023 4:14:41 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T16:14:41.114016336)	World building is complete.
+Feb 09, 2023 4:14:55 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T16:14:55.471307916)	The game is closed.
+Feb 09, 2023 4:15:14 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T16:15:14.140985382)	The game has started.
+Feb 09, 2023 4:15:14 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T16:15:14.328594455)	World building is complete.
+Feb 09, 2023 4:15:16 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T16:15:16.150205754)	The game is closed.
+Feb 09, 2023 4:15:40 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T16:15:40.463987073)	The game has started.
+Feb 09, 2023 4:15:40 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T16:15:40.672478254)	World building is complete.
+Feb 09, 2023 4:16:04 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T16:16:04.330010045)	The game is closed.
+Feb 09, 2023 4:16:17 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T16:16:17.486741006)	The game has started.
+Feb 09, 2023 4:16:17 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T16:16:17.682966900)	World building is complete.
+Feb 09, 2023 4:16:59 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T16:16:59.649955148)	The game is closed.
+Feb 09, 2023 4:51:58 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T16:51:58.304158087)	The game has started.
+Feb 09, 2023 4:51:58 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T16:51:58.501291252)	World building is complete.
+Feb 09, 2023 4:52:06 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T16:52:06.955639425)	The game is closed.
+Feb 09, 2023 4:58:39 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T16:58:39.709763981)	The game has started.
+Feb 09, 2023 4:58:39 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T16:58:39.901864601)	World building is complete.
+Feb 09, 2023 4:58:52 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T16:58:52.371523740)	The game is closed.
+Feb 09, 2023 4:59:24 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T16:59:24.029479306)	The game has started.
+Feb 09, 2023 4:59:24 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T16:59:24.257311727)	World building is complete.
+Feb 09, 2023 4:59:31 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T16:59:31.811763418)	The game is closed.
+Feb 09, 2023 5:10:01 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T17:10:01.523530835)	The game has started.
+Feb 09, 2023 5:10:01 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T17:10:01.719633778)	World building is complete.
+Feb 09, 2023 5:10:04 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T17:10:04.706992840)	The game is closed.
+Feb 09, 2023 5:12:16 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T17:12:16.114406039)	The game has started.
+Feb 09, 2023 5:12:16 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T17:12:16.299322783)	World building is complete.
+Feb 09, 2023 5:12:17 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T17:12:17.726192325)	The game is closed.
+Feb 09, 2023 5:12:54 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T17:12:54.613738274)	The game has started.
+Feb 09, 2023 5:12:54 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T17:12:54.803094712)	World building is complete.
+Feb 09, 2023 5:13:00 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T17:13:00.846043243)	The game is closed.
+Feb 09, 2023 5:13:19 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T17:13:19.573816777)	The game has started.
+Feb 09, 2023 5:13:19 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T17:13:19.769044005)	World building is complete.
+Feb 09, 2023 5:13:20 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T17:13:20.886443715)	The game is closed.
+Feb 09, 2023 5:18:39 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T17:18:39.460225478)	The game has started.
+Feb 09, 2023 5:18:39 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T17:18:39.654639294)	World building is complete.
+Feb 09, 2023 5:18:46 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T17:18:46.866775632)	The game is closed.
+Feb 09, 2023 5:18:56 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T17:18:56.409242968)	The game has started.
+Feb 09, 2023 5:18:56 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T17:18:56.611825625)	World building is complete.
+Feb 09, 2023 5:19:33 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T17:19:33.367280170)	The game is closed.
+Feb 09, 2023 5:21:02 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T17:21:02.672699633)	The game has started.
+Feb 09, 2023 5:21:02 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T17:21:02.876754054)	World building is complete.
+Feb 09, 2023 5:21:11 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T17:21:11.562379156)	The game is closed.
+Feb 09, 2023 5:21:35 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T17:21:35.760111664)	The game has started.
+Feb 09, 2023 5:21:35 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T17:21:35.962244226)	World building is complete.
+Feb 09, 2023 5:22:09 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T17:22:09.315954657)	The game is closed.
+Feb 09, 2023 5:22:47 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T17:22:47.406581720)	The game has started.
+Feb 09, 2023 5:22:47 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T17:22:47.608697028)	World building is complete.
+Feb 09, 2023 5:23:44 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T17:23:44.871729230)	The game is closed.
+Feb 09, 2023 5:27:39 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T17:27:39.376695243)	The game has started.
+Feb 09, 2023 5:27:39 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T17:27:39.559554966)	World building is complete.
+Feb 09, 2023 5:27:49 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T17:27:49.380745448)	The game is closed.
+Feb 09, 2023 5:29:09 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T17:29:09.553409367)	The game has started.
+Feb 09, 2023 5:29:09 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T17:29:09.732603545)	World building is complete.
+Feb 09, 2023 5:29:16 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T17:29:16.722514406)	The game is closed.
+Feb 09, 2023 5:31:17 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T17:31:17.310561520)	The game has started.
+Feb 09, 2023 5:31:17 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T17:31:17.490748600)	World building is complete.
+Feb 09, 2023 5:31:54 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T17:31:54.535396282)	The game is closed.
+Feb 09, 2023 5:32:58 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T17:32:58.455585691)	The game has started.
+Feb 09, 2023 5:32:58 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T17:32:58.633160517)	World building is complete.
+Feb 09, 2023 5:33:01 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T17:33:01.885650920)	The game is closed.
+Feb 09, 2023 5:39:48 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T17:39:48.505938636)	The game has started.
+Feb 09, 2023 5:39:48 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T17:39:48.717826386)	World building is complete.
+Feb 09, 2023 5:40:21 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T17:40:21.003442459)	The game is closed.
+Feb 09, 2023 5:51:13 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T17:51:13.044487250)	The game has started.
+Feb 09, 2023 5:51:13 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T17:51:13.254939390)	World building is complete.
+Feb 09, 2023 5:52:11 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T17:52:11.761527481)	The game is closed.
+Feb 09, 2023 5:58:28 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T17:58:28.515535699)	The game has started.
+Feb 09, 2023 5:58:28 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T17:58:28.721364980)	World building is complete.
+Feb 09, 2023 5:58:55 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T17:58:55.196168316)	The game is closed.
+Feb 09, 2023 6:01:46 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T18:01:46.183430715)	The game has started.
+Feb 09, 2023 6:01:46 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T18:01:46.370738730)	World building is complete.
+Feb 09, 2023 6:02:11 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T18:02:11.396663160)	The game is closed.
+Feb 09, 2023 6:03:04 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T18:03:04.826498200)	The game has started.
+Feb 09, 2023 6:03:05 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T18:03:05.019231049)	World building is complete.
+Feb 09, 2023 6:03:43 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T18:03:43.695387944)	The game is closed.
+Feb 09, 2023 6:04:16 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T18:04:16.537465607)	The game has started.
+Feb 09, 2023 6:04:16 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T18:04:16.719869525)	World building is complete.
+Feb 09, 2023 6:04:20 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T18:04:20.732605226)	The game is closed.
+Feb 09, 2023 6:04:43 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T18:04:43.417867463)	The game has started.
+Feb 09, 2023 6:04:43 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T18:04:43.639568503)	World building is complete.
+Feb 09, 2023 6:05:50 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T18:05:50.878645311)	The game is closed.
+Feb 09, 2023 6:08:17 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T18:08:17.267034453)	The game has started.
+Feb 09, 2023 6:08:17 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T18:08:17.460537015)	World building is complete.
+Feb 09, 2023 6:08:23 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T18:08:23.814177745)	The game is closed.
+Feb 09, 2023 6:09:31 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T18:09:31.326251336)	The game has started.
+Feb 09, 2023 6:09:31 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T18:09:31.508693100)	World building is complete.
+Feb 09, 2023 6:09:40 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T18:09:40.368607635)	The game is closed.
+Feb 09, 2023 6:21:22 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T18:21:22.665759035)	The game has started.
+Feb 09, 2023 6:21:22 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T18:21:22.855917782)	World building is complete.
+Feb 09, 2023 6:21:40 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T18:21:40.348835194)	The game is closed.
+Feb 09, 2023 6:24:11 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T18:24:11.373811345)	The game has started.
+Feb 09, 2023 6:24:11 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T18:24:11.569344068)	World building is complete.
+Feb 09, 2023 6:24:50 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T18:24:50.195868213)	The game is closed.
+Feb 09, 2023 6:27:38 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T18:27:38.904783454)	The game has started.
+Feb 09, 2023 6:27:39 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T18:27:39.105965217)	World building is complete.
+Feb 09, 2023 6:27:50 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T18:27:50.110058805)	The game is closed.
+Feb 09, 2023 6:28:15 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T18:28:15.253268407)	The game has started.
+Feb 09, 2023 6:28:15 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T18:28:15.436510127)	World building is complete.
+Feb 09, 2023 6:28:27 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T18:28:27.564409231)	The game is closed.
+Feb 09, 2023 6:28:29 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T18:28:29.164662404)	The game has started.
+Feb 09, 2023 6:28:29 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T18:28:29.367872049)	World building is complete.
+Feb 09, 2023 6:28:32 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T18:28:32.700581212)	The game is closed.
+Feb 09, 2023 6:32:30 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T18:32:30.943709576)	The game has started.
+Feb 09, 2023 6:32:31 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T18:32:31.140606721)	World building is complete.
+Feb 09, 2023 6:32:38 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T18:32:38.573238684)	The game is closed.
+Feb 09, 2023 8:21:31 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T20:21:31.340427194)	The game has started.
+Feb 09, 2023 8:21:31 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T20:21:31.552443123)	World building is complete.
+Feb 09, 2023 8:21:46 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T20:21:46.069647436)	The game is closed.
+Feb 09, 2023 9:01:54 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T21:01:54.644179124)	The game has started.
+Feb 09, 2023 9:01:54 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T21:01:54.887092664)	World building is complete.
+Feb 09, 2023 9:02:09 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T21:02:09.346220599)	The game is closed.
+Feb 09, 2023 9:02:22 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T21:02:22.732642929)	The game has started.
+Feb 09, 2023 9:02:22 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T21:02:22.958710660)	World building is complete.
+Feb 09, 2023 9:02:36 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T21:02:36.283959215)	The game is closed.
+Feb 09, 2023 9:06:09 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T21:06:09.498428196)	The game has started.
+Feb 09, 2023 9:06:09 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T21:06:09.734478529)	World building is complete.
+Feb 09, 2023 9:06:44 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T21:06:44.558424826)	The game is closed.
+Feb 09, 2023 9:22:50 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T21:22:50.846357959)	The game has started.
+Feb 09, 2023 9:22:51 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T21:22:51.097713398)	World building is complete.
+Feb 09, 2023 9:23:05 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T21:23:05.652981900)	The game is closed.
+Feb 09, 2023 9:23:28 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T21:23:28.763284490)	The game has started.
+Feb 09, 2023 9:23:29 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T21:23:29.030266678)	World building is complete.
+Feb 09, 2023 9:23:49 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T21:23:49.849542401)	The game is closed.
+Feb 09, 2023 9:25:44 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T21:25:44.678112248)	The game has started.
+Feb 09, 2023 9:25:44 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T21:25:44.913637318)	World building is complete.
+Feb 09, 2023 9:25:47 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T21:25:47.658327796)	The game is closed.
+Feb 09, 2023 9:25:53 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T21:25:53.371150586)	The game has started.
+Feb 09, 2023 9:25:53 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T21:25:53.666862742)	World building is complete.
+Feb 09, 2023 9:26:10 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T21:26:10.318890593)	The game is closed.
+Feb 09, 2023 9:29:55 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T21:29:55.131820790)	The game has started.
+Feb 09, 2023 9:29:55 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T21:29:55.392653394)	World building is complete.
+Feb 09, 2023 9:30:33 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T21:30:33.840472469)	The game is closed.
+Feb 09, 2023 9:32:35 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T21:32:35.182890547)	The game has started.
+Feb 09, 2023 9:32:35 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T21:32:35.415499067)	World building is complete.
+Feb 09, 2023 9:32:55 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T21:32:55.935220138)	The game is closed.
+Feb 09, 2023 9:33:23 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T21:33:23.613208851)	The game has started.
+Feb 09, 2023 9:33:23 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T21:33:23.886566960)	World building is complete.
+Feb 09, 2023 9:33:29 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T21:33:29.775931205)	The game is closed.
+Feb 09, 2023 9:34:26 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T21:34:26.218362403)	The game has started.
+Feb 09, 2023 9:34:26 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T21:34:26.444621331)	World building is complete.
+Feb 09, 2023 9:34:27 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T21:34:27.614179929)	The game is closed.
+Feb 09, 2023 9:38:35 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T21:38:35.562138731)	The game has started.
+Feb 09, 2023 9:38:35 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T21:38:35.831298914)	World building is complete.
+Feb 09, 2023 9:39:07 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T21:39:07.912511863)	The game is closed.
+Feb 09, 2023 9:40:05 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T21:40:05.184306923)	The game has started.
+Feb 09, 2023 9:40:05 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T21:40:05.453088783)	World building is complete.
+Feb 09, 2023 9:40:09 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T21:40:09.694486259)	The game is closed.
+Feb 09, 2023 9:40:25 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T21:40:25.271653441)	The game has started.
+Feb 09, 2023 9:40:25 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T21:40:25.541152551)	World building is complete.
+Feb 09, 2023 9:42:15 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T21:42:15.140557587)	The game is closed.
+Feb 09, 2023 9:43:57 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T21:43:57.649323757)	The game has started.
+Feb 09, 2023 9:43:57 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T21:43:57.928136144)	World building is complete.
+Feb 09, 2023 9:45:01 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T21:45:01.879004069)	The game is closed.
+Feb 09, 2023 9:45:46 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T21:45:46.038240966)	The game has started.
+Feb 09, 2023 9:45:46 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T21:45:46.271723043)	World building is complete.
+Feb 09, 2023 9:46:00 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T21:46:00.441083021)	The game is closed.
+Feb 09, 2023 9:53:17 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T21:53:17.281637316)	The game has started.
+Feb 09, 2023 9:53:17 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T21:53:17.521642144)	World building is complete.
+Feb 09, 2023 9:53:20 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T21:53:20.531254265)	The game is closed.
+Feb 09, 2023 9:53:49 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T21:53:49.137747152)	The game has started.
+Feb 09, 2023 9:53:49 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T21:53:49.383500179)	World building is complete.
+Feb 09, 2023 9:53:54 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T21:53:54.445156622)	The game is closed.
+Feb 09, 2023 9:54:07 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T21:54:07.228698445)	The game has started.
+Feb 09, 2023 9:54:07 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T21:54:07.464311597)	World building is complete.
+Feb 09, 2023 9:54:36 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T21:54:36.511693075)	The game is closed.
+Feb 09, 2023 9:55:08 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T21:55:08.730925444)	The game has started.
+Feb 09, 2023 9:55:08 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T21:55:08.954250341)	World building is complete.
+Feb 09, 2023 9:55:29 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T21:55:29.491633320)	The game is closed.
+Feb 09, 2023 9:55:55 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T21:55:55.596481078)	The game has started.
+Feb 09, 2023 9:55:55 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T21:55:55.872896166)	World building is complete.
+Feb 09, 2023 9:56:01 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T21:56:01.474930680)	The game is closed.
+Feb 09, 2023 9:56:07 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T21:56:07.241091667)	The game has started.
+Feb 09, 2023 9:56:07 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T21:56:07.525180806)	World building is complete.
+Feb 09, 2023 9:56:11 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T21:56:11.975758416)	The game is closed.
+Feb 09, 2023 9:56:28 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T21:56:28.114126263)	The game has started.
+Feb 09, 2023 9:56:28 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T21:56:28.347642646)	World building is complete.
+Feb 09, 2023 9:56:52 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T21:56:52.113464328)	The game is closed.
+Feb 09, 2023 9:59:31 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T21:59:31.437427504)	The game has started.
+Feb 09, 2023 9:59:31 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T21:59:31.680083117)	World building is complete.
+Feb 09, 2023 10:01:29 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T22:01:29.441141207)	The game is closed.
+Feb 09, 2023 10:41:20 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T22:41:20.831709692)	The game has started.
+Feb 09, 2023 10:41:20 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T22:41:20.999916422)	World building is complete.
+Feb 09, 2023 10:41:26 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-09T22:41:26.169261599)	The game is closed.
+Feb 10, 2023 2:03:45 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-10T14:03:45.271539974)	The game has started.
+Feb 10, 2023 2:03:45 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-10T14:03:45.485390839)	World building is complete.
+Feb 10, 2023 2:04:01 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-10T14:04:01.747372818)	The game is closed.
+Feb 10, 2023 2:39:31 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-10T14:39:31.707024440)	The game has started.
+Feb 10, 2023 2:39:31 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-10T14:39:31.881278448)	World building is complete.
+Feb 10, 2023 2:39:40 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-10T14:39:40.127704353)	The game is closed.
+Feb 10, 2023 2:40:14 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-10T14:40:14.915121958)	The game has started.
+Feb 10, 2023 2:40:15 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-10T14:40:15.082139668)	World building is complete.
+Feb 10, 2023 2:40:25 PM jp.xdomain.html.yoctomns.util.LoggingUtil severePrint
+SEVERE: (2023-02-10T14:40:25.568155120)	A fatal exception occurred during game execution. The game will be terminated.
+java.lang.ArrayIndexOutOfBoundsException: Index 8 out of bounds for length 8
+	at jp.xdomain.html.yoctomns.entity.creature.Player.isWalkableTile(Player.java:82)
+	at jp.xdomain.html.yoctomns.entity.creature.Player.canWalk(Player.java:112)
+	at jp.xdomain.html.yoctomns.entity.creature.Player.update(Player.java:121)
+	at jp.xdomain.html.yoctomns.state.PlayState.update(PlayState.java:93)
+	at jp.xdomain.html.yoctomns.game.Game.update(Game.java:41)
+	at jp.xdomain.html.yoctomns.game.GameLoop.update(GameLoop.java:58)
+	at jp.xdomain.html.yoctomns.game.GameLoop.run(GameLoop.java:34)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+	at jp.xdomain.html.yoctomns.GameLauncher.<init>(GameLauncher.java:10)
+	at jp.xdomain.html.yoctomns.GameLauncher.main(GameLauncher.java:14)
+
+Feb 10, 2023 2:40:25 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-10T14:40:25.569091138)	The game is closed.
+Feb 10, 2023 2:41:47 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-10T14:41:47.087196878)	The game has started.
+Feb 10, 2023 2:41:47 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-10T14:41:47.267067804)	World building is complete.
+Feb 10, 2023 2:41:49 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-10T14:41:49.267626677)	The game is closed.
+Feb 10, 2023 2:42:04 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-10T14:42:04.623489122)	The game has started.
+Feb 10, 2023 2:42:04 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-10T14:42:04.794775170)	World building is complete.
+Feb 10, 2023 2:42:21 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-10T14:42:21.446226121)	The game is closed.
+Feb 10, 2023 2:43:00 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-10T14:43:00.225975512)	The game has started.
+Feb 10, 2023 2:43:00 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-10T14:43:00.391888764)	World building is complete.
+Feb 10, 2023 2:43:25 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-10T14:43:25.005457826)	The game is closed.
+Feb 10, 2023 2:43:51 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-10T14:43:51.050012542)	The game has started.
+Feb 10, 2023 2:43:51 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-10T14:43:51.226923778)	World building is complete.
+Feb 10, 2023 2:44:11 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-10T14:44:11.326975727)	The game is closed.
+Feb 10, 2023 2:45:33 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-10T14:45:33.712641867)	The game has started.
+Feb 10, 2023 2:45:33 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-10T14:45:33.883679749)	World building is complete.
+Feb 10, 2023 2:46:06 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-10T14:46:06.989404988)	The game is closed.
+Feb 10, 2023 2:53:23 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-10T14:53:22.999699423)	The game has started.
+Feb 10, 2023 2:53:23 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-10T14:53:23.182959233)	World building is complete.
+Feb 10, 2023 2:53:24 PM jp.xdomain.html.yoctomns.util.LoggingUtil severePrint
+SEVERE: (2023-02-10T14:53:24.735740245)	A fatal exception occurred during game execution. The game will be terminated.
+java.lang.ArrayIndexOutOfBoundsException: Index 8 out of bounds for length 8
+	at jp.xdomain.html.yoctomns.entity.creature.Player.isWalkableTile(Player.java:83)
+	at jp.xdomain.html.yoctomns.entity.creature.Player.canWalk(Player.java:116)
+	at jp.xdomain.html.yoctomns.entity.creature.Player.update(Player.java:125)
+	at jp.xdomain.html.yoctomns.state.PlayState.update(PlayState.java:93)
+	at jp.xdomain.html.yoctomns.game.Game.update(Game.java:41)
+	at jp.xdomain.html.yoctomns.game.GameLoop.update(GameLoop.java:58)
+	at jp.xdomain.html.yoctomns.game.GameLoop.run(GameLoop.java:34)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+	at jp.xdomain.html.yoctomns.GameLauncher.<init>(GameLauncher.java:10)
+	at jp.xdomain.html.yoctomns.GameLauncher.main(GameLauncher.java:14)
+
+Feb 10, 2023 2:53:24 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-10T14:53:24.736656588)	The game is closed.
+Feb 10, 2023 2:54:44 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-10T14:54:44.841570430)	The game has started.
+Feb 10, 2023 2:54:45 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-10T14:54:45.025791466)	World building is complete.
+Feb 10, 2023 2:55:00 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-10T14:55:00.732495275)	The game is closed.
+Feb 10, 2023 2:55:06 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-10T14:55:06.070046912)	The game has started.
+Feb 10, 2023 2:55:06 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-10T14:55:06.248547699)	World building is complete.
+Feb 10, 2023 2:55:13 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-10T14:55:13.401786059)	The game is closed.
+Feb 10, 2023 2:55:31 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-10T14:55:31.905932274)	The game has started.
+Feb 10, 2023 2:55:32 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-10T14:55:32.087440928)	World building is complete.
+Feb 10, 2023 2:55:37 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-10T14:55:37.493070864)	The game is closed.
+Feb 10, 2023 2:55:44 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-10T14:55:44.918785468)	The game has started.
+Feb 10, 2023 2:55:45 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-10T14:55:45.100469273)	World building is complete.
+Feb 10, 2023 2:55:48 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-10T14:55:48.785049838)	The game is closed.
+Feb 10, 2023 2:57:50 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-10T14:57:50.791241078)	The game has started.
+Feb 10, 2023 2:57:50 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-10T14:57:50.976389017)	World building is complete.
+Feb 10, 2023 2:57:55 PM jp.xdomain.html.yoctomns.util.LoggingUtil severePrint
+SEVERE: (2023-02-10T14:57:55.712803232)	A fatal exception occurred during game execution. The game will be terminated.
+java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 8
+	at jp.xdomain.html.yoctomns.entity.creature.Player.isWalkableTile(Player.java:86)
+	at jp.xdomain.html.yoctomns.entity.creature.Player.canWalk(Player.java:118)
+	at jp.xdomain.html.yoctomns.entity.creature.Player.update(Player.java:127)
+	at jp.xdomain.html.yoctomns.state.PlayState.update(PlayState.java:93)
+	at jp.xdomain.html.yoctomns.game.Game.update(Game.java:41)
+	at jp.xdomain.html.yoctomns.game.GameLoop.update(GameLoop.java:58)
+	at jp.xdomain.html.yoctomns.game.GameLoop.run(GameLoop.java:34)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+	at jp.xdomain.html.yoctomns.GameLauncher.<init>(GameLauncher.java:10)
+	at jp.xdomain.html.yoctomns.GameLauncher.main(GameLauncher.java:14)
+
+Feb 10, 2023 2:57:55 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-10T14:57:55.713768975)	The game is closed.
+Feb 10, 2023 2:59:49 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-10T14:59:49.028914820)	The game has started.
+Feb 10, 2023 2:59:49 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-10T14:59:49.192665554)	World building is complete.
+Feb 10, 2023 2:59:53 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-10T14:59:53.368041071)	The game is closed.
+Feb 10, 2023 3:27:45 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-10T15:27:45.970559415)	The game has started.
+Feb 10, 2023 3:27:46 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-10T15:27:46.181167682)	World building is complete.
+Feb 10, 2023 3:27:52 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-10T15:27:52.597447059)	The game is closed.
+Feb 10, 2023 3:30:12 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-10T15:30:12.333742254)	The game has started.
+Feb 10, 2023 3:30:12 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-10T15:30:12.538319303)	World building is complete.
+Feb 10, 2023 3:30:41 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-10T15:30:41.356469655)	The game is closed.
+Feb 10, 2023 3:31:01 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-10T15:31:01.108176140)	The game has started.
+Feb 10, 2023 3:31:01 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-10T15:31:01.346740364)	World building is complete.
+Feb 10, 2023 3:31:13 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-10T15:31:13.199938200)	The game is closed.
+Feb 10, 2023 3:31:24 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-10T15:31:24.163633520)	The game has started.
+Feb 10, 2023 3:31:24 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-10T15:31:24.359180693)	World building is complete.
+Feb 10, 2023 3:31:36 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-10T15:31:36.795300064)	The game is closed.
+Feb 10, 2023 3:37:16 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-10T15:37:16.665656520)	The game has started.
+Feb 10, 2023 3:37:16 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-10T15:37:16.878516188)	World building is complete.
+Feb 10, 2023 3:37:30 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-10T15:37:30.212412225)	The game is closed.
+Feb 10, 2023 3:51:22 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-10T15:51:22.695415946)	The game has started.
+Feb 10, 2023 3:51:22 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-10T15:51:22.896944778)	World building is complete.
+Feb 10, 2023 3:51:34 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-10T15:51:34.785666934)	The game is closed.
+Feb 11, 2023 12:08:47 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:08:47.311609355)	The game has started.
+Feb 11, 2023 12:08:47 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:08:47.560953225)	World building is complete.
+Feb 11, 2023 12:08:50 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:08:50.121079308)	The game is closed.
+Feb 11, 2023 12:12:16 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:12:16.481952880)	The game has started.
+Feb 11, 2023 12:12:16 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:12:16.704421149)	World building is complete.
+Feb 11, 2023 12:12:42 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:12:42.397247121)	The game is closed.
+Feb 11, 2023 12:20:01 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:20:01.203331887)	The game has started.
+Feb 11, 2023 12:20:01 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:20:01.421462315)	World building is complete.
+Feb 11, 2023 12:20:16 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:20:16.815067387)	The game is closed.
+Feb 11, 2023 12:20:40 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:20:40.469822034)	The game has started.
+Feb 11, 2023 12:20:40 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:20:40.701033483)	World building is complete.
+Feb 11, 2023 12:20:41 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:20:41.938087252)	The game is closed.
+Feb 11, 2023 12:20:49 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:20:49.802426148)	The game has started.
+Feb 11, 2023 12:20:50 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:20:50.056473397)	World building is complete.
+Feb 11, 2023 12:20:55 AM jp.xdomain.html.yoctomns.util.LoggingUtil severePrint
+SEVERE: (2023-02-11T00:20:55.860006220)	A fatal exception occurred during game execution. The game will be terminated.
+java.lang.ArrayIndexOutOfBoundsException: Index 8 out of bounds for length 8
+	at jp.xdomain.html.yoctomns.entity.creature.Player.isWalkableTile(Player.java:89)
+	at jp.xdomain.html.yoctomns.entity.creature.Player.canWalk(Player.java:132)
+	at jp.xdomain.html.yoctomns.entity.creature.Player.update(Player.java:141)
+	at jp.xdomain.html.yoctomns.state.PlayState.update(PlayState.java:92)
+	at jp.xdomain.html.yoctomns.game.Game.update(Game.java:41)
+	at jp.xdomain.html.yoctomns.game.GameLoop.update(GameLoop.java:58)
+	at jp.xdomain.html.yoctomns.game.GameLoop.run(GameLoop.java:34)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+	at jp.xdomain.html.yoctomns.GameLauncher.<init>(GameLauncher.java:10)
+	at jp.xdomain.html.yoctomns.GameLauncher.main(GameLauncher.java:14)
+
+Feb 11, 2023 12:20:55 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:20:55.861045008)	The game is closed.
+Feb 11, 2023 12:21:51 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:21:51.859040842)	The game has started.
+Feb 11, 2023 12:21:52 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:21:52.110641972)	World building is complete.
+Feb 11, 2023 12:21:53 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:21:53.994467740)	The game is closed.
+Feb 11, 2023 12:22:15 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:22:15.169422653)	The game has started.
+Feb 11, 2023 12:22:15 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:22:15.421517304)	World building is complete.
+Feb 11, 2023 12:22:48 AM jp.xdomain.html.yoctomns.util.LoggingUtil severePrint
+SEVERE: (2023-02-11T00:22:48.542697138)	A fatal exception occurred during game execution. The game will be terminated.
+java.lang.ArrayIndexOutOfBoundsException: Index 8 out of bounds for length 8
+	at jp.xdomain.html.yoctomns.entity.creature.Player.isWalkableTile(Player.java:89)
+	at jp.xdomain.html.yoctomns.entity.creature.Player.canWalk(Player.java:132)
+	at jp.xdomain.html.yoctomns.entity.creature.Player.update(Player.java:141)
+	at jp.xdomain.html.yoctomns.state.PlayState.update(PlayState.java:92)
+	at jp.xdomain.html.yoctomns.game.Game.update(Game.java:41)
+	at jp.xdomain.html.yoctomns.game.GameLoop.update(GameLoop.java:58)
+	at jp.xdomain.html.yoctomns.game.GameLoop.run(GameLoop.java:34)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+	at jp.xdomain.html.yoctomns.GameLauncher.<init>(GameLauncher.java:10)
+	at jp.xdomain.html.yoctomns.GameLauncher.main(GameLauncher.java:14)
+
+Feb 11, 2023 12:22:48 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:22:48.543881060)	The game is closed.
+Feb 11, 2023 12:25:04 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:25:04.701388502)	The game has started.
+Feb 11, 2023 12:25:04 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:25:04.927597531)	World building is complete.
+Feb 11, 2023 12:25:47 AM jp.xdomain.html.yoctomns.util.LoggingUtil severePrint
+SEVERE: (2023-02-11T00:25:47.930573882)	A fatal exception occurred during game execution. The game will be terminated.
+java.lang.ArrayIndexOutOfBoundsException: Index 8 out of bounds for length 8
+	at jp.xdomain.html.yoctomns.entity.creature.Player.isWalkableTile(Player.java:89)
+	at jp.xdomain.html.yoctomns.entity.creature.Player.canWalk(Player.java:134)
+	at jp.xdomain.html.yoctomns.entity.creature.Player.update(Player.java:143)
+	at jp.xdomain.html.yoctomns.state.PlayState.update(PlayState.java:92)
+	at jp.xdomain.html.yoctomns.game.Game.update(Game.java:41)
+	at jp.xdomain.html.yoctomns.game.GameLoop.update(GameLoop.java:58)
+	at jp.xdomain.html.yoctomns.game.GameLoop.run(GameLoop.java:34)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+	at jp.xdomain.html.yoctomns.GameLauncher.<init>(GameLauncher.java:10)
+	at jp.xdomain.html.yoctomns.GameLauncher.main(GameLauncher.java:14)
+
+Feb 11, 2023 12:25:47 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:25:47.931607059)	The game is closed.
+Feb 11, 2023 12:26:49 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:26:49.154698780)	The game has started.
+Feb 11, 2023 12:26:49 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:26:49.395426455)	World building is complete.
+Feb 11, 2023 12:26:50 AM jp.xdomain.html.yoctomns.util.LoggingUtil severePrint
+SEVERE: (2023-02-11T00:26:50.665176654)	A fatal exception occurred during game execution. The game will be terminated.
+java.lang.ArrayIndexOutOfBoundsException: Index 8 out of bounds for length 8
+	at jp.xdomain.html.yoctomns.entity.creature.Player.isWalkableTile(Player.java:89)
+	at jp.xdomain.html.yoctomns.entity.creature.Player.canWalk(Player.java:132)
+	at jp.xdomain.html.yoctomns.entity.creature.Player.update(Player.java:141)
+	at jp.xdomain.html.yoctomns.state.PlayState.update(PlayState.java:92)
+	at jp.xdomain.html.yoctomns.game.Game.update(Game.java:41)
+	at jp.xdomain.html.yoctomns.game.GameLoop.update(GameLoop.java:58)
+	at jp.xdomain.html.yoctomns.game.GameLoop.run(GameLoop.java:34)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+	at jp.xdomain.html.yoctomns.GameLauncher.<init>(GameLauncher.java:10)
+	at jp.xdomain.html.yoctomns.GameLauncher.main(GameLauncher.java:14)
+
+Feb 11, 2023 12:26:50 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:26:50.666760058)	The game is closed.
+Feb 11, 2023 12:27:39 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:27:39.515251789)	The game has started.
+Feb 11, 2023 12:27:39 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:27:39.758391949)	World building is complete.
+Feb 11, 2023 12:27:44 AM jp.xdomain.html.yoctomns.util.LoggingUtil severePrint
+SEVERE: (2023-02-11T00:27:44.461749878)	A fatal exception occurred during game execution. The game will be terminated.
+java.lang.ArrayIndexOutOfBoundsException: Index 8 out of bounds for length 8
+	at jp.xdomain.html.yoctomns.entity.creature.Player.isWalkableTile(Player.java:89)
+	at jp.xdomain.html.yoctomns.entity.creature.Player.canWalk(Player.java:133)
+	at jp.xdomain.html.yoctomns.entity.creature.Player.update(Player.java:142)
+	at jp.xdomain.html.yoctomns.state.PlayState.update(PlayState.java:92)
+	at jp.xdomain.html.yoctomns.game.Game.update(Game.java:41)
+	at jp.xdomain.html.yoctomns.game.GameLoop.update(GameLoop.java:58)
+	at jp.xdomain.html.yoctomns.game.GameLoop.run(GameLoop.java:34)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+	at jp.xdomain.html.yoctomns.GameLauncher.<init>(GameLauncher.java:10)
+	at jp.xdomain.html.yoctomns.GameLauncher.main(GameLauncher.java:14)
+
+Feb 11, 2023 12:27:44 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:27:44.462807842)	The game is closed.
+Feb 11, 2023 12:27:53 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:27:53.953701753)	The game has started.
+Feb 11, 2023 12:27:54 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:27:54.193225285)	World building is complete.
+Feb 11, 2023 12:28:30 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:28:30.072859168)	The game is closed.
+Feb 11, 2023 12:28:49 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:28:49.740549145)	The game has started.
+Feb 11, 2023 12:28:49 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:28:49.991167744)	World building is complete.
+Feb 11, 2023 12:29:35 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:29:35.537834773)	The game is closed.
+Feb 11, 2023 12:30:37 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:30:37.088294732)	The game has started.
+Feb 11, 2023 12:30:37 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:30:37.355692871)	World building is complete.
+Feb 11, 2023 12:30:43 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:30:43.074287763)	The game is closed.
+Feb 11, 2023 12:33:20 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:33:20.500100497)	The game has started.
+Feb 11, 2023 12:33:20 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:33:20.750259189)	World building is complete.
+Feb 11, 2023 12:33:48 AM jp.xdomain.html.yoctomns.util.LoggingUtil severePrint
+SEVERE: (2023-02-11T00:33:48.919748790)	A fatal exception occurred during game execution. The game will be terminated.
+java.lang.ArrayIndexOutOfBoundsException: Index 8 out of bounds for length 8
+	at jp.xdomain.html.yoctomns.entity.creature.Player.isWalkableTile(Player.java:83)
+	at jp.xdomain.html.yoctomns.entity.creature.Player.canWalk(Player.java:125)
+	at jp.xdomain.html.yoctomns.entity.creature.Player.update(Player.java:134)
+	at jp.xdomain.html.yoctomns.state.PlayState.update(PlayState.java:92)
+	at jp.xdomain.html.yoctomns.game.Game.update(Game.java:41)
+	at jp.xdomain.html.yoctomns.game.GameLoop.update(GameLoop.java:58)
+	at jp.xdomain.html.yoctomns.game.GameLoop.run(GameLoop.java:34)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+	at jp.xdomain.html.yoctomns.GameLauncher.<init>(GameLauncher.java:10)
+	at jp.xdomain.html.yoctomns.GameLauncher.main(GameLauncher.java:14)
+
+Feb 11, 2023 12:33:48 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:33:48.921680470)	The game is closed.
+Feb 11, 2023 12:34:35 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:34:35.562185441)	The game has started.
+Feb 11, 2023 12:34:35 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:34:35.801219686)	World building is complete.
+Feb 11, 2023 12:35:12 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:35:12.430855974)	The game is closed.
+Feb 11, 2023 12:35:39 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:35:39.442956414)	The game has started.
+Feb 11, 2023 12:35:39 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:35:39.696708474)	World building is complete.
+Feb 11, 2023 12:35:52 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:35:52.690996381)	The game is closed.
+Feb 11, 2023 12:36:03 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:36:03.748468510)	The game has started.
+Feb 11, 2023 12:36:03 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:36:03.989066584)	World building is complete.
+Feb 11, 2023 12:36:40 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:36:40.570960639)	The game is closed.
+Feb 11, 2023 12:38:16 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:38:16.662564464)	The game has started.
+Feb 11, 2023 12:38:16 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:38:16.900869339)	World building is complete.
+Feb 11, 2023 12:38:30 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:38:30.754640313)	The game is closed.
+Feb 11, 2023 12:39:10 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:39:10.234399668)	The game has started.
+Feb 11, 2023 12:39:10 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:39:10.450356474)	World building is complete.
+Feb 11, 2023 12:39:19 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:39:19.609571017)	The game is closed.
+Feb 11, 2023 12:40:10 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:40:10.456747063)	The game has started.
+Feb 11, 2023 12:40:10 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:40:10.705934996)	World building is complete.
+Feb 11, 2023 12:40:43 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:40:43.009880084)	The game is closed.
+Feb 11, 2023 12:41:10 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:41:10.118640565)	The game has started.
+Feb 11, 2023 12:41:10 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:41:10.386076787)	World building is complete.
+Feb 11, 2023 12:41:32 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:41:32.389131278)	The game is closed.
+Feb 11, 2023 12:44:26 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:44:26.565499372)	The game has started.
+Feb 11, 2023 12:44:26 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:44:26.816286188)	World building is complete.
+Feb 11, 2023 12:44:59 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:44:59.608256406)	The game is closed.
+Feb 11, 2023 12:45:36 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:45:36.081862969)	The game has started.
+Feb 11, 2023 12:45:36 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:45:36.319836442)	World building is complete.
+Feb 11, 2023 12:46:52 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:46:52.172102457)	The game is closed.
+Feb 11, 2023 12:49:29 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:49:29.769427797)	The game has started.
+Feb 11, 2023 12:49:30 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:49:30.020781154)	World building is complete.
+Feb 11, 2023 12:50:30 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:50:30.106543906)	The game is closed.
+Feb 11, 2023 12:55:10 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:55:10.097380926)	The game has started.
+Feb 11, 2023 12:55:10 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:55:10.320640919)	World building is complete.
+Feb 11, 2023 12:55:18 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:55:18.109378865)	The game is closed.
+Feb 11, 2023 12:55:56 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:55:56.257654944)	The game has started.
+Feb 11, 2023 12:55:56 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:55:56.505810634)	World building is complete.
+Feb 11, 2023 12:56:02 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:56:02.172061209)	The game is closed.
+Feb 11, 2023 12:57:20 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:57:20.911206971)	The game has started.
+Feb 11, 2023 12:57:21 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:57:21.137512959)	World building is complete.
+Feb 11, 2023 12:57:37 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:57:37.831107537)	The game is closed.
+Feb 11, 2023 12:58:25 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:58:25.902162936)	The game has started.
+Feb 11, 2023 12:58:26 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:58:26.157522887)	World building is complete.
+Feb 11, 2023 12:58:58 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:58:58.611815892)	The game is closed.
+Feb 11, 2023 12:59:19 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:59:19.027065519)	The game has started.
+Feb 11, 2023 12:59:19 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:59:19.262146620)	World building is complete.
+Feb 11, 2023 12:59:41 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T00:59:41.092038900)	The game is closed.
+Feb 11, 2023 9:49:46 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T09:49:46.759449051)	The game has started.
+Feb 11, 2023 9:49:46 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T09:49:46.989158545)	World building is complete.
+Feb 11, 2023 9:49:51 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T09:49:51.898692220)	The game is closed.
+Feb 11, 2023 9:50:24 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T09:50:24.740082447)	The game has started.
+Feb 11, 2023 9:50:24 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T09:50:24.926105690)	World building is complete.
+Feb 11, 2023 9:50:27 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T09:50:27.218501637)	The game is closed.
+Feb 11, 2023 10:04:14 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T10:04:14.771718347)	The game has started.
+Feb 11, 2023 10:04:14 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T10:04:14.956946636)	World building is complete.
+Feb 11, 2023 10:04:18 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T10:04:18.591531755)	The game is closed.
+Feb 11, 2023 10:26:43 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T10:26:43.455836166)	The game has started.
+Feb 11, 2023 10:26:43 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T10:26:43.656366849)	World building is complete.
+Feb 11, 2023 10:27:17 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T10:27:17.222989328)	The game is closed.
+Feb 11, 2023 10:30:48 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T10:30:48.103669297)	The game has started.
+Feb 11, 2023 10:30:48 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T10:30:48.312325404)	World building is complete.
+Feb 11, 2023 10:31:02 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T10:31:02.720504036)	The game is closed.
+Feb 11, 2023 3:14:24 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T15:14:24.593418412)	The game has started.
+Feb 11, 2023 3:14:24 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T15:14:24.769091584)	World building is complete.
+Feb 11, 2023 3:14:42 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-11T15:14:42.349911972)	The game is closed.
+Feb 13, 2023 10:16:12 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T10:16:12.366389151)	The game has started.
+Feb 13, 2023 10:16:12 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T10:16:12.601346562)	World building is complete.
+Feb 13, 2023 10:16:16 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T10:16:16.782070032)	The game is closed.
+Feb 13, 2023 10:21:48 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T10:21:48.470852393)	The game has started.
+Feb 13, 2023 10:21:48 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T10:21:48.634038011)	World building is complete.
+Feb 13, 2023 10:22:01 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T10:22:01.287895589)	The game is closed.
+Feb 13, 2023 10:23:10 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T10:23:10.553409938)	The game has started.
+Feb 13, 2023 10:23:10 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T10:23:10.733273950)	World building is complete.
+Feb 13, 2023 10:23:13 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T10:23:13.935912279)	The game is closed.
+Feb 13, 2023 10:23:29 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T10:23:29.526438751)	The game has started.
+Feb 13, 2023 10:23:29 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T10:23:29.703667496)	World building is complete.
+Feb 13, 2023 10:23:31 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T10:23:31.229218944)	The game is closed.
+Feb 13, 2023 10:24:39 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T10:24:39.798416998)	The game has started.
+Feb 13, 2023 10:24:39 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T10:24:39.969706189)	World building is complete.
+Feb 13, 2023 10:25:03 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T10:25:03.946405097)	The game is closed.
+Feb 13, 2023 10:25:30 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T10:25:30.424372290)	The game has started.
+Feb 13, 2023 10:25:30 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T10:25:30.603115757)	World building is complete.
+Feb 13, 2023 10:25:33 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T10:25:33.502469617)	The game is closed.
+Feb 13, 2023 10:26:35 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T10:26:35.226941865)	The game has started.
+Feb 13, 2023 10:26:35 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T10:26:35.402954294)	World building is complete.
+Feb 13, 2023 10:26:53 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T10:26:53.383888303)	The game is closed.
+Feb 13, 2023 10:27:10 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T10:27:10.847340357)	The game has started.
+Feb 13, 2023 10:27:11 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T10:27:11.029661199)	World building is complete.
+Feb 13, 2023 10:27:22 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T10:27:22.041474880)	The game is closed.
+Feb 13, 2023 10:44:07 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T10:44:07.388431588)	The game has started.
+Feb 13, 2023 10:44:07 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T10:44:07.558565596)	World building is complete.
+Feb 13, 2023 10:44:09 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T10:44:09.820211199)	The game is closed.
+Feb 13, 2023 10:44:39 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T10:44:39.172956932)	The game has started.
+Feb 13, 2023 10:44:39 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T10:44:39.349859614)	World building is complete.
+Feb 13, 2023 10:44:42 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T10:44:42.732254534)	The game is closed.
+Feb 13, 2023 10:44:49 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T10:44:49.005538189)	The game has started.
+Feb 13, 2023 10:44:49 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T10:44:49.180748782)	World building is complete.
+Feb 13, 2023 10:45:01 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T10:45:01.526191938)	The game is closed.
+Feb 13, 2023 10:45:31 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T10:45:31.339428722)	The game has started.
+Feb 13, 2023 10:45:31 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T10:45:31.515456624)	World building is complete.
+Feb 13, 2023 10:45:33 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T10:45:33.480965673)	The game is closed.
+Feb 13, 2023 10:49:29 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T10:49:29.009251588)	The game has started.
+Feb 13, 2023 10:49:29 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T10:49:29.184329076)	World building is complete.
+Feb 13, 2023 10:49:30 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T10:49:30.737715290)	The game is closed.
+Feb 13, 2023 2:04:03 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T14:04:03.470218635)	The game has started.
+Feb 13, 2023 2:04:03 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T14:04:03.659988683)	World building is complete.
+Feb 13, 2023 2:04:09 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T14:04:09.184718218)	The game is closed.
+Feb 13, 2023 2:04:20 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T14:04:20.766497526)	The game has started.
+Feb 13, 2023 2:04:20 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T14:04:20.950350105)	World building is complete.
+Feb 13, 2023 2:04:32 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T14:04:32.789756785)	The game is closed.
+Feb 13, 2023 2:04:57 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T14:04:57.116086035)	The game has started.
+Feb 13, 2023 2:04:57 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T14:04:57.286887909)	World building is complete.
+Feb 13, 2023 2:05:02 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T14:05:02.727020203)	The game is closed.
+Feb 13, 2023 2:06:02 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T14:06:02.639061775)	The game has started.
+Feb 13, 2023 2:06:02 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T14:06:02.828237957)	World building is complete.
+Feb 13, 2023 2:06:27 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T14:06:27.585799673)	The game is closed.
+Feb 13, 2023 2:11:26 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T14:11:26.898759235)	The game has started.
+Feb 13, 2023 2:11:27 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T14:11:27.089508588)	World building is complete.
+Feb 13, 2023 2:11:30 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T14:11:30.344635078)	The game is closed.
+Feb 13, 2023 2:12:02 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T14:12:02.637306332)	The game has started.
+Feb 13, 2023 2:12:02 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T14:12:02.822971767)	World building is complete.
+Feb 13, 2023 2:12:04 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T14:12:04.862056018)	The game is closed.
+Feb 13, 2023 2:12:20 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T14:12:20.798494683)	The game has started.
+Feb 13, 2023 2:12:20 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T14:12:20.977604938)	World building is complete.
+Feb 13, 2023 2:12:28 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T14:12:28.046722887)	The game is closed.
+Feb 13, 2023 2:12:47 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T14:12:47.208134274)	The game has started.
+Feb 13, 2023 2:12:47 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T14:12:47.394860288)	World building is complete.
+Feb 13, 2023 2:12:49 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T14:12:49.130994800)	The game is closed.
+Feb 13, 2023 2:13:34 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T14:13:34.920000435)	The game has started.
+Feb 13, 2023 2:13:35 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T14:13:35.121811031)	World building is complete.
+Feb 13, 2023 2:13:40 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T14:13:40.335389128)	The game is closed.
+Feb 13, 2023 2:16:09 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T14:16:09.922142282)	The game has started.
+Feb 13, 2023 2:16:10 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T14:16:10.120647545)	World building is complete.
+Feb 13, 2023 2:16:22 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T14:16:22.113813927)	The game is closed.
+Feb 13, 2023 2:16:38 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T14:16:38.113229365)	The game has started.
+Feb 13, 2023 2:16:38 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T14:16:38.285576843)	World building is complete.
+Feb 13, 2023 2:16:44 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T14:16:44.217208109)	The game is closed.
+Feb 13, 2023 2:16:49 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T14:16:49.423473167)	The game has started.
+Feb 13, 2023 2:16:49 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T14:16:49.601685798)	World building is complete.
+Feb 13, 2023 2:17:00 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T14:17:00.761312797)	The game is closed.
+Feb 13, 2023 2:17:37 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T14:17:37.987837034)	The game has started.
+Feb 13, 2023 2:17:38 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T14:17:38.168126743)	World building is complete.
+Feb 13, 2023 2:17:40 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T14:17:40.407298841)	The game is closed.
+Feb 13, 2023 2:18:26 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T14:18:26.252317625)	The game has started.
+Feb 13, 2023 2:18:26 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T14:18:26.437002501)	World building is complete.
+Feb 13, 2023 2:19:03 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T14:19:03.002019490)	The game is closed.
+Feb 13, 2023 2:19:42 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T14:19:42.575848776)	The game has started.
+Feb 13, 2023 2:19:42 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T14:19:42.756228158)	World building is complete.
+Feb 13, 2023 2:19:47 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T14:19:47.215319761)	The game is closed.
+Feb 13, 2023 2:20:34 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T14:20:34.047113702)	The game has started.
+Feb 13, 2023 2:20:34 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T14:20:34.230140458)	World building is complete.
+Feb 13, 2023 2:20:36 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T14:20:36.910370449)	The game is closed.
+Feb 13, 2023 2:21:51 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T14:21:51.069507134)	The game has started.
+Feb 13, 2023 2:21:51 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T14:21:51.243479089)	World building is complete.
+Feb 13, 2023 2:21:58 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T14:21:58.780738533)	The game is closed.
+Feb 13, 2023 2:24:36 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T14:24:36.117976699)	The game has started.
+Feb 13, 2023 2:24:36 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T14:24:36.302541504)	World building is complete.
+Feb 13, 2023 2:24:38 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T14:24:38.338792117)	The game is closed.
+Feb 13, 2023 2:25:00 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T14:25:00.594337831)	The game has started.
+Feb 13, 2023 2:25:00 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T14:25:00.806953163)	World building is complete.
+Feb 13, 2023 2:25:04 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T14:25:04.431483730)	The game is closed.
+Feb 13, 2023 2:25:09 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T14:25:09.015543413)	The game has started.
+Feb 13, 2023 2:25:09 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T14:25:09.199094606)	World building is complete.
+Feb 13, 2023 2:25:10 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T14:25:10.708447184)	The game is closed.
+Feb 13, 2023 2:26:04 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T14:26:04.075004426)	The game has started.
+Feb 13, 2023 2:26:04 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T14:26:04.260490662)	World building is complete.
+Feb 13, 2023 2:26:05 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T14:26:05.761633484)	The game is closed.
+Feb 13, 2023 2:26:55 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T14:26:55.806736942)	The game has started.
+Feb 13, 2023 2:26:55 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T14:26:55.985726875)	World building is complete.
+Feb 13, 2023 2:26:58 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T14:26:58.902399770)	The game is closed.
+Feb 13, 2023 2:27:43 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T14:27:43.617302443)	The game has started.
+Feb 13, 2023 2:27:43 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T14:27:43.800185378)	World building is complete.
+Feb 13, 2023 2:27:45 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-13T14:27:45.792646679)	The game is closed.
+Feb 17, 2023 10:50:02 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T10:50:02.156805657)	The game has started.
+Feb 17, 2023 10:50:02 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T10:50:02.339025192)	World building is complete.
+Feb 17, 2023 10:50:27 AM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T10:50:27.148614818)	The game is closed.
+Feb 17, 2023 3:10:06 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T15:10:06.760940576)	The game has started.
+Feb 17, 2023 3:10:06 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T15:10:06.954598276)	World building is complete.
+Feb 17, 2023 3:10:10 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T15:10:10.345378153)	The game is closed.
+Feb 17, 2023 3:11:26 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T15:11:26.928600909)	The game has started.
+Feb 17, 2023 3:11:28 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T15:11:28.670476816)	The game is closed.
+Feb 17, 2023 3:12:02 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T15:12:02.106511299)	The game has started.
+Feb 17, 2023 3:12:02 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T15:12:02.292703406)	World building is complete.
+Feb 17, 2023 3:12:12 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T15:12:12.127803713)	The game is closed.
+Feb 17, 2023 3:13:19 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T15:13:19.113703081)	The game has started.
+Feb 17, 2023 3:13:19 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T15:13:19.307441331)	World building is complete.
+Feb 17, 2023 3:13:36 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T15:13:36.323465651)	The game is closed.
+Feb 17, 2023 3:39:44 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T15:39:44.445371134)	The game has started.
+Feb 17, 2023 3:39:44 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T15:39:44.634753339)	World building is complete.
+Feb 17, 2023 3:39:57 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T15:39:57.379706275)	The game is closed.
+Feb 17, 2023 3:40:10 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T15:40:10.962161322)	The game has started.
+Feb 17, 2023 3:40:11 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T15:40:11.165730017)	World building is complete.
+Feb 17, 2023 3:40:36 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T15:40:36.530342060)	The game is closed.
+Feb 17, 2023 4:00:17 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T16:00:17.874035119)	The game has started.
+Feb 17, 2023 4:00:18 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T16:00:18.071379139)	World building is complete.
+Feb 17, 2023 4:00:21 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T16:00:21.241019968)	The game is closed.
+Feb 17, 2023 4:02:24 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T16:02:24.067583872)	The game has started.
+Feb 17, 2023 4:02:24 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T16:02:24.268000285)	World building is complete.
+Feb 17, 2023 4:02:48 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T16:02:48.380038138)	The game is closed.
+Feb 17, 2023 4:04:07 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T16:04:07.446641825)	The game has started.
+Feb 17, 2023 4:04:07 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T16:04:07.635701727)	World building is complete.
+Feb 17, 2023 4:04:23 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T16:04:23.819613097)	The game is closed.
+Feb 17, 2023 4:17:10 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T16:17:10.442662246)	The game has started.
+Feb 17, 2023 4:17:10 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T16:17:10.628631026)	World building is complete.
+Feb 17, 2023 4:17:14 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T16:17:14.768200058)	The game is closed.
+Feb 17, 2023 4:22:31 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T16:22:31.203531336)	The game has started.
+Feb 17, 2023 4:22:31 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T16:22:31.388938007)	World building is complete.
+Feb 17, 2023 4:22:43 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T16:22:43.467421803)	The game is closed.
+Feb 17, 2023 4:26:49 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T16:26:49.599629741)	The game has started.
+Feb 17, 2023 4:26:49 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T16:26:49.771754425)	World building is complete.
+Feb 17, 2023 4:26:56 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T16:26:56.741005234)	The game is closed.
+Feb 17, 2023 4:28:06 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T16:28:06.763143906)	The game has started.
+Feb 17, 2023 4:28:06 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T16:28:06.941201719)	World building is complete.
+Feb 17, 2023 4:28:15 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T16:28:15.717056439)	The game is closed.
+Feb 17, 2023 4:28:24 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T16:28:24.839777147)	The game has started.
+Feb 17, 2023 4:28:25 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T16:28:25.022612382)	World building is complete.
+Feb 17, 2023 4:28:49 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T16:28:49.958045646)	The game is closed.
+Feb 17, 2023 4:29:07 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T16:29:07.962939641)	The game has started.
+Feb 17, 2023 4:29:08 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T16:29:08.142630482)	World building is complete.
+Feb 17, 2023 4:29:21 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T16:29:21.927523851)	The game is closed.
+Feb 17, 2023 4:29:37 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T16:29:37.475711389)	The game has started.
+Feb 17, 2023 4:29:37 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T16:29:37.659709012)	World building is complete.
+Feb 17, 2023 4:30:05 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T16:30:05.217082240)	The game is closed.
+Feb 17, 2023 4:36:36 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T16:36:36.503782243)	The game has started.
+Feb 17, 2023 4:36:36 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T16:36:36.684319281)	World building is complete.
+Feb 17, 2023 4:36:59 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T16:36:59.894799970)	The game is closed.
+Feb 17, 2023 4:44:33 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T16:44:33.330844472)	The game has started.
+Feb 17, 2023 4:44:33 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T16:44:33.510645896)	World building is complete.
+Feb 17, 2023 4:44:48 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T16:44:48.592318704)	The game is closed.
+Feb 17, 2023 5:05:15 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T17:05:15.783905928)	The game has started.
+Feb 17, 2023 5:05:15 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T17:05:15.975219690)	World building is complete.
+Feb 17, 2023 5:05:23 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T17:05:23.269962493)	The game is closed.
+Feb 17, 2023 5:09:44 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T17:09:44.952540913)	The game has started.
+Feb 17, 2023 5:09:45 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T17:09:45.153488570)	World building is complete.
+Feb 17, 2023 5:09:47 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T17:09:47.128282512)	The game is closed.
+Feb 17, 2023 5:09:53 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T17:09:53.262883095)	The game has started.
+Feb 17, 2023 5:09:53 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T17:09:53.456153649)	World building is complete.
+Feb 17, 2023 5:10:26 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T17:10:26.127257977)	The game is closed.
+Feb 17, 2023 5:13:07 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T17:13:07.415120272)	The game has started.
+Feb 17, 2023 5:13:07 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T17:13:07.607533229)	World building is complete.
+Feb 17, 2023 5:13:14 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T17:13:14.663833424)	The game is closed.
+Feb 17, 2023 5:14:20 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T17:14:20.995476678)	The game has started.
+Feb 17, 2023 5:14:21 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T17:14:21.191531012)	World building is complete.
+Feb 17, 2023 5:14:24 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T17:14:24.324134591)	The game is closed.
+Feb 17, 2023 5:14:44 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T17:14:44.885508453)	The game has started.
+Feb 17, 2023 5:14:45 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T17:14:45.084400608)	World building is complete.
+Feb 17, 2023 5:14:54 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T17:14:54.679954634)	The game is closed.
+Feb 17, 2023 5:15:02 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T17:15:02.135835630)	The game has started.
+Feb 17, 2023 5:15:02 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T17:15:02.349072644)	World building is complete.
+Feb 17, 2023 5:15:12 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T17:15:12.756567175)	The game is closed.
+Feb 17, 2023 5:18:14 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T17:18:14.506718365)	The game has started.
+Feb 17, 2023 5:18:14 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T17:18:14.713086603)	World building is complete.
+Feb 17, 2023 5:18:21 PM jp.xdomain.html.yoctomns.util.LoggingUtil infoPrint
+INFO: (2023-02-17T17:18:21.191688739)	The game is closed.

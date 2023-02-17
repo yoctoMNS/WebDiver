@@ -10,8 +10,8 @@ import jp.xdomain.html.yoctomns.state.PlayState;
 import jp.xdomain.html.yoctomns.state.State;
 
 public class NormalTile extends Tile {
-    public NormalTile(State state, Position position, Size size, String name, int scale, BufferedImage texture) {
-        super(state, position, size, name, scale, texture);
+    public NormalTile(int id, State state, Position position, Size size, String name, int scale, BufferedImage texture) {
+        super(id, state, position, size, name, scale, texture);
     }
 
     @Override
@@ -26,7 +26,7 @@ public class NormalTile extends Tile {
     @Override
     public void draw(Graphics2D graphics2D) {
         if (state instanceof PlayState playState) {
-            Position slideTilePos = gameCamera.getSlideTilesPos(playState.getPlayer());
+            Position slideTilePos = gameCamera.getSlideTilePosFromPlayer(playState.getPlayer());
             graphics2D.drawImage(
                     texture,
                     getX() * getWidth() * scale + slideTilePos.getX(),

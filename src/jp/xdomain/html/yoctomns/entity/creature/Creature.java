@@ -24,7 +24,5 @@ public abstract class Creature extends Entity {
     public void update() {
         position.addX(vx);
         position.addY(vy);
-        bounds.x += vx;
-        bounds.y += vy;
     }
 }

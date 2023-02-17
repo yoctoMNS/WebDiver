@@ -4,11 +4,13 @@ import java.awt.Graphics2D;
 import java.io.IOException;
 import java.awt.image.BufferedImage;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 import jp.xdomain.html.yoctomns.core.Position;
 import jp.xdomain.html.yoctomns.core.Size;
 import jp.xdomain.html.yoctomns.entity.creature.Player;
+import jp.xdomain.html.yoctomns.entity.tile.EventTile;
 import jp.xdomain.html.yoctomns.entity.tile.NormalTile;
 import jp.xdomain.html.yoctomns.entity.tile.HoleTile;
 import jp.xdomain.html.yoctomns.entity.tile.ObjectTile;
@@ -28,9 +30,14 @@ public class PlayState extends State {
         super(game);
         this.layers = new ArrayList<>();
         try {
-            WorldData worldData = FileUtil.buildWorldDataForTextData("/img/tile/world1.map");
+            WorldData worldData = FileUtil.buildWorldDataForTextData("/map/world1.map");
             buildTiles(worldData);
-            this.player = new Player(this, new Position(0, 0), new Size(worldData.getTileWidth(), worldData.getTileHeight()), "yocto", worldData.getTileScale());
+            this.player = new Player(
+                worldData, this,
+                new Position(worldData.getTileWidth() * 4 + Player.BOUNDS_OFFSET_X, worldData.getTileHeight() * 4 + Player.BOUNDS_OFFSET_Y),
+                new Size(Player.BOUNDS_WIDTH, Player.BOUNDS_HEIGHT),
+                "yocto", worldData.getTileScale()
+            );
         } catch (IOException e) {
             LoggingUtil.severePrint("Failed build world data.", e);
         }
@@ -59,11 +66,16 @@ public class PlayState extends State {
             if (id != -1) {
                 BufferedImage image = tileAssets.getImage(id);
                 if (Tile.NORMAL_TILE_ID.contains(id)) {
-                    tiles[y][x] = new NormalTile(this, pos, size, name, scale, image);
+                    tiles[y][x] = new NormalTile(id, this, pos, size, name, scale, image);
                 } else if (Tile.HOLE_TILE_ID.contains(id)) {
-                    tiles[y][x] = new HoleTile(this, pos, size, name, scale, image);
+                    name = "Hole Tile";
+                    tiles[y][x] = new HoleTile(id, this, pos, size, name, scale, image);
                 } else if (Tile.OBJECT_TILE_ID.contains(id)) {
-                    tiles[y][x] = new ObjectTile(this, pos, size, name, scale, image);
+                    name = "Object Tile";
+                    tiles[y][x] = new ObjectTile(id, this, pos, size, name, scale, image);
+                } else if (Tile.EVENT_TILE_ID.contains(id)) {
+                    name = "Event Tile";
+                    tiles[y][x] = new EventTile(id, this, pos, size, name, scale, image);
                 }
             }
             x++;
@@ -75,6 +87,7 @@ public class PlayState extends State {
                 y = 0;
             }
         }
+        layers.add(tiles);
         LoggingUtil.infoPrint("World building is complete.");
     }
 
@@ -86,10 +99,10 @@ public class PlayState extends State {
 
     @Override
     public void draw(Graphics2D graphics2D) {
-        layers.stream().forEach(tiles -> {
+        layers.stream().forEach(tiles ->  {
             for (Tile[] line : tiles) {
                 for (Tile tile : line) {
-                    if (tile != null) {
+                    if (tile != null && tile.getId() != 2499) {
                         tile.draw(graphics2D);
                     }
                 }
@@ -100,5 +113,9 @@ public class PlayState extends State {
 
     public Player getPlayer() {
         return player;
+    }
+
+    public List<Tile[][]> getLayers() {
+        return layers;
     }
 }

@@ -7,6 +7,7 @@ public class GameLoop implements Runnable {
     public static final int UPDATES_PER_SOCOND = 60;
     public static final int ONE_SEC = 1;
     public static final int DEFAULT_FPS = 60;
+    public static int dispCounter = 0;
     private boolean running;
     private double targetFrame;
     private Game game;
@@ -36,7 +37,7 @@ public class GameLoop implements Runnable {
                 }
                 counter++;
                 if (timer >= ONE_SEC_NANO_TIME) {
-                    System.out.println(counter);
+                    dispCounter = counter;
                     counter = 0;
                     timer = 0;
                 }

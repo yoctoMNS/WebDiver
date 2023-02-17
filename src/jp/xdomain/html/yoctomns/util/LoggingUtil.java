@@ -21,7 +21,6 @@ public class LoggingUtil {
             logger.setLevel(Level.ALL);
         } catch (IOException e) {
             System.err.println("A file read or write error has occurred.");
-        } finally {
             close();
         }
     }
