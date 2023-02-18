@@ -3,9 +3,12 @@ Animation implementation - DONE
 Game camera - DONE
 Map building from text file - DONE
 Log - DONE
+Player class refactoring - DONE
+Tile collision - DONE
+Event Tile - DONE
+Effect Tile - DONE
 
 PlayState class refactoring - WIP
-Tile collision - WIP
 
 UI - NONE
 Mouse - NONE

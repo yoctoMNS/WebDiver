@@ -162,7 +162,7 @@ public class Player extends Creature {
             }
             if (isEventTile1 && isEventTile2) {
                 if (tile1 instanceof EventTile eventTile) {
-                    eventTile.action(state);
+                    eventTile.action();
                 }
                 break;
             }
@@ -198,14 +198,7 @@ public class Player extends Creature {
             screenCenterPos.getX(), screenCenterPos.getY(),
             worldData.getTileWidth() * scale, worldData.getTileHeight() * scale, null
         );
-        if (state.getGame().isDebugMode()) {
-            graphics2D.setColor(Color.RED);
-            graphics2D.drawRect(
-                screenCenterPos.getX() + (BOUNDS_OFFSET_X * scale),
-                screenCenterPos.getY() + (BOUNDS_OFFSET_Y * scale),
-                getWidth() * scale, getHeight() * scale
-            );
-        }
+        graphics2D.setColor(Color.RED);
         graphics2D.setFont(new Font(Font.MONOSPACED, Font.PLAIN, 30));
         graphics2D.drawString(getX() + ", " + getY(), 10, 70);
         graphics2D.drawString(vx + ", " + vy, 10, 110);

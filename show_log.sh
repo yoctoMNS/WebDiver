@@ -1,2 +1,2 @@
 #!/bin/bash
-cat res/log/system/system.log
+vim res/log/system/system.log

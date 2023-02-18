@@ -15,7 +15,8 @@ public abstract class Tile extends Entity {
     public static final List<Integer> NORMAL_TILE_ID = Arrays.asList(2);
     public static final List<Integer> HOLE_TILE_ID = Arrays.asList(602,603,2499);
     public static final List<Integer> OBJECT_TILE_ID = Arrays.asList(48,321,85,137,66,67,71,371);
-    public static final List<Integer> EVENT_TILE_ID = Arrays.asList(685,720);
+    public static final List<Integer> WARP_EVENT_TILE_ID = Arrays.asList(720);
+    public static final List<Integer> EFFECT_EVENT_TILE_ID = Arrays.asList(685);
     protected int id;
     protected BufferedImage texture;
 

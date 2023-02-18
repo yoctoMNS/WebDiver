@@ -11,7 +11,7 @@ import jp.xdomain.html.yoctomns.event.GameEvent;
 import jp.xdomain.html.yoctomns.state.PlayState;
 import jp.xdomain.html.yoctomns.state.State;
 
-public class EventTile extends Tile implements GameEvent {
+public abstract class EventTile extends Tile implements GameEvent {
     public EventTile(int id, State state, Position position, Size size, String name, int scale, BufferedImage texture) {
         super(id, state, position, size, name, scale, texture);
     }
@@ -46,10 +46,5 @@ public class EventTile extends Tile implements GameEvent {
                         getHeight() * scale);
             }
         }
-    }
-
-    @Override
-    public void action(State state) {
-        System.out.println("player is on the event tile");
     }
 }

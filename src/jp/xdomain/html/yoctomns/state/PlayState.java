@@ -10,19 +10,19 @@ import java.util.List;
 import jp.xdomain.html.yoctomns.core.Position;
 import jp.xdomain.html.yoctomns.core.Size;
 import jp.xdomain.html.yoctomns.entity.creature.Player;
-import jp.xdomain.html.yoctomns.entity.tile.EventTile;
+import jp.xdomain.html.yoctomns.entity.tile.EffectEventTile;
 import jp.xdomain.html.yoctomns.entity.tile.NormalTile;
 import jp.xdomain.html.yoctomns.entity.tile.HoleTile;
 import jp.xdomain.html.yoctomns.entity.tile.ObjectTile;
 import jp.xdomain.html.yoctomns.entity.tile.Tile;
 import jp.xdomain.html.yoctomns.entity.tile.TileAssets;
+import jp.xdomain.html.yoctomns.entity.tile.WarpEventTile;
 import jp.xdomain.html.yoctomns.game.Game;
 import jp.xdomain.html.yoctomns.util.FileUtil;
 import jp.xdomain.html.yoctomns.util.LoggingUtil;
 import jp.xdomain.html.yoctomns.world.WorldData;
 
 public class PlayState extends State {
-    private TileAssets tileAssets;
     private List<Tile[][]> layers;
     private Player player;
 
@@ -44,50 +44,41 @@ public class PlayState extends State {
     }
 
     public void buildTiles(WorldData worldData) {
-        tileAssets = new TileAssets("/img/tile/" + worldData.getFileName(), worldData.getTileWidth(), worldData.getTileHeight());
+        TileAssets tileAssets = new TileAssets("/img/tile/" + worldData.getFileName(), worldData.getTileWidth(), worldData.getTileHeight());
         List<Integer> mapData = worldData.getMapData();
-        Tile[][] tiles = null;
-        int x = 0;
-        int y = 0;
-        for (int i = 0; i < worldData.getMapLength(); i++) {
-            if (i % (worldData.getWidth() * worldData.getHeight()) == 0) {
-                if (tiles == null) {
-                    tiles = new Tile[worldData.getHeight()][worldData.getWidth()];
-                } else {
-                    layers.add(tiles);
-                    tiles = new Tile[worldData.getHeight()][worldData.getWidth()];
+        for (int i = 0; i < 3; i++) {
+            Tile[][] tiles = new Tile[worldData.getHeight()][worldData.getWidth()];
+            for (int y = 0; y < worldData.getHeight(); y++) {
+                for (int x = 0; x < worldData.getWidth(); x++) {
+                    // TODO
+                    Position pos = new Position(x, y);
+                    Size size = new Size(worldData.getTileWidth(), worldData.getTileHeight());
+                    String name = "Normal Tile";
+                    int scale = worldData.getTileScale();
+                    int id = mapData.get((i * (worldData.getWidth() * worldData.getHeight())) + y * worldData.getWidth() + x) - 1;
+                    if (id != -1) {
+                        BufferedImage image = tileAssets.getImage(id);
+                        if (Tile.NORMAL_TILE_ID.contains(id)) {
+                            tiles[y][x] = new NormalTile(id, this, pos, size, name, scale, image);
+                        } else if (Tile.HOLE_TILE_ID.contains(id)) {
+                            name = "Hole Tile";
+                            tiles[y][x] = new HoleTile(id, this, pos, size, name, scale, image);
+                        } else if (Tile.OBJECT_TILE_ID.contains(id)) {
+                            name = "Object Tile";
+                            tiles[y][x] = new ObjectTile(id, this, pos, size, name, scale, image);
+                        } else if (Tile.WARP_EVENT_TILE_ID.contains(id)) {
+                            name = "Warp Event Tile";
+                            // TODO
+                            tiles[y][x] = new WarpEventTile(id, this, pos, size, name, scale, image, 1);
+                        } else if (Tile.EFFECT_EVENT_TILE_ID.contains(id)) {
+                            name = "Effect Event Tile";
+                            tiles[y][x] = new EffectEventTile(id, this, pos, size, name, scale, image);
+                        }
+                    }
                 }
             }
-            Position pos = new Position(x, y);
-            Size size = new Size(worldData.getTileWidth(), worldData.getTileHeight());
-            String name = "Normal Tile";
-            int scale = worldData.getTileScale();
-            int id = mapData.get(i) - 1;
-            if (id != -1) {
-                BufferedImage image = tileAssets.getImage(id);
-                if (Tile.NORMAL_TILE_ID.contains(id)) {
-                    tiles[y][x] = new NormalTile(id, this, pos, size, name, scale, image);
-                } else if (Tile.HOLE_TILE_ID.contains(id)) {
-                    name = "Hole Tile";
-                    tiles[y][x] = new HoleTile(id, this, pos, size, name, scale, image);
-                } else if (Tile.OBJECT_TILE_ID.contains(id)) {
-                    name = "Object Tile";
-                    tiles[y][x] = new ObjectTile(id, this, pos, size, name, scale, image);
-                } else if (Tile.EVENT_TILE_ID.contains(id)) {
-                    name = "Event Tile";
-                    tiles[y][x] = new EventTile(id, this, pos, size, name, scale, image);
-                }
-            }
-            x++;
-            if (x == worldData.getWidth()) {
-                x = 0;
-                y++;
-            }
-            if (y == worldData.getHeight()) {
-                y = 0;
-            }
+            layers.add(tiles);
         }
-        layers.add(tiles);
         LoggingUtil.infoPrint("World building is complete.");
     }
 
