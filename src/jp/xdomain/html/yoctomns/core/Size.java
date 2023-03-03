@@ -29,4 +29,9 @@ public class Size {
     public int getHeight() {
         return height;
     }
+
+    @Override
+    public String toString() {
+        return "WIDTH: " + width + " HEIGHT: " + height;
+    }
 }

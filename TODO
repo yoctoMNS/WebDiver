@@ -7,8 +7,9 @@ Player class refactoring - DONE
 Tile collision - DONE
 Event Tile - DONE
 Effect Tile - DONE
+UIText - DONE
 
 PlayState class refactoring - WIP
 
-UI - NONE
+UIButton - NONE
 Mouse - NONE

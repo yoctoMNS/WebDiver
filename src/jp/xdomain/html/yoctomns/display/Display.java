@@ -2,7 +2,6 @@ package jp.xdomain.html.yoctomns.display;
 
 import java.awt.Canvas;
 import java.awt.Color;
-import java.awt.Font;
 import java.awt.Graphics2D;
 import java.awt.GraphicsConfiguration;
 import java.awt.GraphicsEnvironment;
@@ -14,7 +13,11 @@ import javax.swing.JFrame;
 
 import jp.xdomain.html.yoctomns.game.GameLoop;
 import jp.xdomain.html.yoctomns.state.State;
+import jp.xdomain.html.yoctomns.ui.UIComponent;
 import jp.xdomain.html.yoctomns.util.LoggingUtil;
+
+// TODO
+import java.awt.Font;
 
 public class Display extends JFrame implements WindowListener {
     private Canvas canvas;
@@ -47,10 +50,6 @@ public class Display extends JFrame implements WindowListener {
         Graphics2D graphics2D = (Graphics2D) bufferStrategy.getDrawGraphics();
         graphics2D.clearRect(0, 0, getWidth(), getHeight());
         state.draw(graphics2D);
-        if (state.getGame().isDebugMode()) {
-            graphics2D.setFont(new Font(Font.MONOSPACED, Font.PLAIN, 30));
-            graphics2D.drawString(String.valueOf(GameLoop.dispCounter), 10, 30);
-        }
         graphics2D.dispose();
         bufferStrategy.show();
     }

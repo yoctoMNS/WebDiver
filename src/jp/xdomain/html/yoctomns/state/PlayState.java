@@ -18,6 +18,7 @@ import jp.xdomain.html.yoctomns.entity.tile.Tile;
 import jp.xdomain.html.yoctomns.entity.tile.TileAssets;
 import jp.xdomain.html.yoctomns.entity.tile.WarpEventTile;
 import jp.xdomain.html.yoctomns.game.Game;
+import jp.xdomain.html.yoctomns.ui.UIDebugInfo;
 import jp.xdomain.html.yoctomns.util.FileUtil;
 import jp.xdomain.html.yoctomns.util.LoggingUtil;
 import jp.xdomain.html.yoctomns.world.WorldData;
@@ -25,6 +26,7 @@ import jp.xdomain.html.yoctomns.world.WorldData;
 public class PlayState extends State {
     private List<Tile[][]> layers;
     private Player player;
+    private UIDebugInfo uIDebugInfo;
 
     public PlayState(Game game) {
         super(game);
@@ -41,6 +43,7 @@ public class PlayState extends State {
         } catch (IOException e) {
             LoggingUtil.severePrint("Failed build world data.", e);
         }
+        this.uIDebugInfo = new UIDebugInfo(new Size(Game.SCREEN_WIDTH, Game.SCREEN_HEIGHT));
     }
 
     public void buildTiles(WorldData worldData) {
@@ -86,6 +89,7 @@ public class PlayState extends State {
     public void update() {
         super.update();
         player.update();
+        uIDebugInfo.update(this);
     }
 
     @Override
@@ -100,6 +104,7 @@ public class PlayState extends State {
             }
         });
         player.draw(graphics2D);
+        uIDebugInfo.draw(graphics2D);
     }
 
     public Player getPlayer() {

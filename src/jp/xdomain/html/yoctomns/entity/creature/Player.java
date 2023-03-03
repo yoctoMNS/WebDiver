@@ -198,9 +198,10 @@ public class Player extends Creature {
             screenCenterPos.getX(), screenCenterPos.getY(),
             worldData.getTileWidth() * scale, worldData.getTileHeight() * scale, null
         );
-        graphics2D.setColor(Color.RED);
-        graphics2D.setFont(new Font(Font.MONOSPACED, Font.PLAIN, 30));
-        graphics2D.drawString(getX() + ", " + getY(), 10, 70);
-        graphics2D.drawString(vx + ", " + vy, 10, 110);
+    }
+
+    @Override
+    public String toString() {
+        return "X: " + getX() + " Y: " + getY();
     }
 }
