@@ -34,8 +34,8 @@ public class GameLoop implements Runnable {
                     update();
                     draw();
                     delta--;
+                    counter++;
                 }
-                counter++;
                 if (timer >= ONE_SEC_NANO_TIME) {
                     dispCounter = counter;
                     counter = 0;

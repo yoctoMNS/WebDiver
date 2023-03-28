@@ -1,90 +1,69 @@
 package jp.xdomain.html.yoctomns.display;
 
-import java.awt.Canvas;
-import java.awt.Color;
 import java.awt.Graphics2D;
-import java.awt.GraphicsConfiguration;
-import java.awt.GraphicsEnvironment;
-import java.awt.image.BufferStrategy;
 import java.awt.event.WindowEvent;
 import java.awt.event.WindowListener;
 
 import javax.swing.JFrame;
 
-import jp.xdomain.html.yoctomns.game.GameLoop;
 import jp.xdomain.html.yoctomns.state.State;
-import jp.xdomain.html.yoctomns.ui.UIComponent;
 import jp.xdomain.html.yoctomns.util.LoggingUtil;
 
-// TODO
-import java.awt.Font;
-
 public class Display extends JFrame implements WindowListener {
-    private Canvas canvas;
-    private BufferStrategy bufferStrategy;
+    private GamePanel gamePanel;
+    private State state;
 
-    public Display(String title, int width, int height) {
+    public Display(State state, String title, int width, int height) {
         super(title);
-        GraphicsConfiguration graphicsConfiguration = GraphicsEnvironment.getLocalGraphicsEnvironment().getDefaultScreenDevice().getDefaultConfiguration();
-        this.canvas = new Canvas(graphicsConfiguration);
+        this.state = state;
         setSize(width, height);
-        setDefaultCloseOperation(EXIT_ON_CLOSE);
         setResizable(false);
-        setLocationRelativeTo(null);
-        canvas.setPreferredSize(getSize());
-        canvas.setMaximumSize(getSize());
-        canvas.setMinimumSize(getSize());
-        canvas.setBackground(Color.BLACK);
-        add(canvas);
+        setDefaultCloseOperation(EXIT_ON_CLOSE);
+        this.gamePanel = new GamePanel(this, width, height);
+        add(gamePanel);
         pack();
-        canvas.createBufferStrategy(2);
+        setLocationRelativeTo(null);
         setVisible(true);
         addWindowListener(this);
     }
 
-    public void draw(State state) {
-        if (bufferStrategy == null) {
-            canvas.createBufferStrategy(2);
-        }
-        bufferStrategy = canvas.getBufferStrategy();
-        Graphics2D graphics2D = (Graphics2D) bufferStrategy.getDrawGraphics();
+    public void draw(Graphics2D graphics2D) throws RuntimeException, Error {
         graphics2D.clearRect(0, 0, getWidth(), getHeight());
         state.draw(graphics2D);
         graphics2D.dispose();
-        bufferStrategy.show();
     }
 
     @Override
     public void windowOpened(WindowEvent e) {
-	}
+    }
 
     @Override
     public void windowClosing(WindowEvent e) {
         LoggingUtil.infoPrint("The game is closed.");
         LoggingUtil.close();
-	}
+    }
 
     @Override
     public void windowClosed(WindowEvent e) {
-	}
+    }
 
     @Override
     public void windowIconified(WindowEvent e) {
-	}
+    }
 
     @Override
     public void windowDeiconified(WindowEvent e) {
-	}
+    }
 
     @Override
     public void windowActivated(WindowEvent e) {
-	}
+    }
 
     @Override
     public void windowDeactivated(WindowEvent e) {
-	}
+    }
 
-    public Canvas getCanvas() {
-        return canvas;
+    public GamePanel getGamePanel() {
+        return gamePanel;
     }
 }

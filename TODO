@@ -7,9 +7,13 @@ Player class refactoring - DONE
 Tile collision - DONE
 Event Tile - DONE
 Effect Tile - DONE
-UIText - DONE
 
-PlayState class refactoring - WIP
+JPanel - WIP
+UI - WIP
 
-UIButton - NONE
-Mouse - NONE
+StartState - NONE
+PlayState class refactoring - NONE
+VolatileImage - NONE
+
+==Books
+Filthy Rich Clients - NONE

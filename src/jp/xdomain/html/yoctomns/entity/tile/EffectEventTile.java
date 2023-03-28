@@ -4,10 +4,10 @@ import java.awt.image.BufferedImage;
 
 import jp.xdomain.html.yoctomns.core.Position;
 import jp.xdomain.html.yoctomns.core.Size;
-import jp.xdomain.html.yoctomns.event.Effect;
+import jp.xdomain.html.yoctomns.event.GameEffect;
 import jp.xdomain.html.yoctomns.state.State;
 
-public class EffectEventTile extends EventTile implements Effect {
+public class EffectEventTile extends EventTile implements GameEffect {
     public EffectEventTile(int id, State state, Position position, Size size, String name, int scale, BufferedImage texture) {
         super(id, state, position, size, name, scale, texture);
     }

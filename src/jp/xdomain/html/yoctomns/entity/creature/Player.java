@@ -170,10 +170,7 @@ public class Player extends Creature {
     }
 
     private boolean canWalk() {
-        if (isOutOfMap()) {
-            return false;
-        }
-        if (!isWalkableTile()) {
+        if (isOutOfMap() || !isWalkableTile()) {
             return false;
         }
         return true;
