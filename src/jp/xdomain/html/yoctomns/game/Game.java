@@ -17,7 +17,6 @@ public class Game {
     private Mouse mouse;
     // TODO
     // private MouseHandler mouseHandler;
-    // private UIDebugInfo uiDebugInfo;
 
     public Game() {
         this.debugMode = true;
@@ -36,6 +35,7 @@ public class Game {
 
     public void update() throws RuntimeException, Error {
         keyboard.update();
+        display.update();
         // TODO
         // mouseHandler.update(state);
         state.update();

@@ -27,6 +27,10 @@ public class Display extends JFrame implements WindowListener {
         addWindowListener(this);
     }
 
+    public void update() throws RuntimeException, Error {
+        gamePanel.update();
+    }
+
     public void draw(Graphics2D graphics2D) throws RuntimeException, Error {
         graphics2D.clearRect(0, 0, getWidth(), getHeight());
         state.draw(graphics2D);

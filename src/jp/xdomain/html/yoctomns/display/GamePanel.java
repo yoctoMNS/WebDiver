@@ -5,10 +5,13 @@ import java.awt.Dimension;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
 
-import javax.swing.JPanel;
+import javax.swing.JLayeredPane;
 
-public class GamePanel extends JPanel {
+import jp.xdomain.html.yoctomns.ui.UIDebug;
+
+public class GamePanel extends JLayeredPane {
     private Display parent;
+    private UIDebug uIDebug;
 
     public GamePanel(Display parent, int width, int height) {
         this.parent = parent;
@@ -16,6 +19,13 @@ public class GamePanel extends JPanel {
         setMaximumSize(new Dimension(width, height));
         setMinimumSize(new Dimension(width, height));
         setBackground(Color.BLACK);
+        this.uIDebug = new UIDebug();
+        this.uIDebug.setBounds(width - 100, height - 100, 100, 100);
+        add(uIDebug);
+    }
+
+    public void update() {
+        uIDebug.update();
     }
 
     @Override
